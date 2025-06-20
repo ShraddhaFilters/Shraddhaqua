@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | ShraddhaAqua</title>
+  <meta name="description" content="Explore ShraddhaAqua’s expert RO, UV purifier repair and installation services. Book trained technicians today.">
+  <meta name="keywords" content="water purifier service, RO repair, UV servicing, home installation, ShraddhaAqua">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .glow-btn {
+      background-image: linear-gradient(135deg, #3b82f6, #60a5fa);
+      transition: all 0.3s ease;
+    }
+
+    .glow-btn:hover {
+      box-shadow: 0 0 20px #3b82f6;
+      transform: translateY(-2px);
+    }
+
+    .card {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-tr from-[#050d1f] to-[#0b2541] text-white">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-[#061830] to-[#0c2a50] shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row md:justify-between md:items-center gap-4">
+      <div class="flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-blue-400">ShraddhaAqua</h1>
+        <!-- Mobile menu button -->
+        <button id="menu-btn" class="md:hidden ml-4 text-blue-100 hover:text-blue-400 focus:outline-none" aria-label="Open Menu">
+          <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+      <nav id="main-nav" class="space-y-2 md:space-y-0 md:space-x-6 text-sm font-medium text-blue-100 flex-col md:flex-row flex md:items-center md:static absolute left-0 right-0 top-full bg-[#0c2a50] md:bg-transparent px-4 md:px-0 py-4 md:py-0 transition-all duration-200 ease-in-out z-40 hidden md:flex">
+        <a href="index.html" class="hover:text-blue-400 block md:inline">Home</a>
+        <a href="products.html" class="hover:text-blue-400 block md:inline">Filters</a>
+        <a href="parts.html" class="hover:text-blue-400 block md:inline">Parts</a>
+        <a href="services.html" class="hover:text-blue-400 block md:inline">Service</a>
+        <a href="contact.html" class="hover:text-blue-400 block md:inline">Contact</a>
+      </nav>
+    </div>
+    <script>
+      // Simple mobile menu toggle
+      const menuBtn = document.getElementById('menu-btn');
+      const nav = document.getElementById('main-nav');
+      menuBtn?.addEventListener('click', () => {
+        nav.classList.toggle('hidden');
+      });
+      // Optional: Hide menu on nav link click (mobile)
+      nav?.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          if (window.innerWidth < 768) nav.classList.add('hidden');
+        });
+      });
+    </script>
+  </header>
+
+  <!-- Hero -->
+  <section class="py-20 bg-gradient-to-br from-[#0c1f35] via-[#0d2949] to-[#0f3a5c] text-center">
+    <h2 class="text-4xl font-bold mb-4 text-white">Professional RO & UV Purifier Services</h2>
+    <p class="text-blue-300 mb-6">Doorstep service. Trusted technicians. Affordable rates.</p>
+    <a href="#book" class="px-6 py-3 rounded glow-btn text-white font-medium">Book a Service</a>
+  </section>
+
+  <!-- Services Offered -->
+  <section id="services" class="py-16 bg-gradient-to-br from-[#081e33] to-[#102f4d]">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center text-blue-100 mb-10">Our Services</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- Repair -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <div class="mx-auto mb-4 text-blue-400">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12h.01M12 15h.01M9 12h.01M12 6.75V4.5m0 16.5v-2.25m7.07-10.32l1.59-1.59m-15.9 0l1.59 1.59m13.32 13.32l-1.59-1.59m-10.32 0l-1.59 1.59M19.5 12h-2.25m-11.25 0H4.5" />
+            </svg>
+          </div>
+          <h4 class="text-xl font-semibold mb-2">RO/UV Repair</h4>
+          <p class="text-blue-300 text-sm">Fix water flow, leakage, noise & other issues with expert help.</p>
+        </div>
+
+        <!-- Installation -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <div class="mx-auto mb-4 text-blue-400">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M9 16h6M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h4 class="text-xl font-semibold mb-2">Installation & Re-installation</h4>
+          <p class="text-blue-300 text-sm">New RO setup or shifting? We handle it all professionally.</p>
+        </div>
+
+        <!-- AMC -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <div class="mx-auto mb-4 text-blue-400">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m-3-3H8m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h4 class="text-xl font-semibold mb-2">Annual Maintenance</h4>
+          <p class="text-blue-300 text-sm">AMC plans available for hassle-free yearly servicing.</p>
+        </div>
+
+        <!-- Filter -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <div class="mx-auto mb-4 text-blue-400">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 5l-4 4-4-4m0 14l4-4 4 4" />
+            </svg>
+          </div>
+          <h4 class="text-xl font-semibold mb-2">Filter Replacement</h4>
+          <p class="text-blue-300 text-sm">Genuine filters, membranes, UV lamps, and more at your doorstep.</p>
+        </div>
+
+        <!-- Checkup -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <div class="mx-auto mb-4 text-blue-400">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 17a4 4 0 100-8 4 4 0 000 8zm0 0v4m0-4H9m2 0h2" />
+            </svg>
+          </div>
+          <h4 class="text-xl font-semibold mb-2">Water Quality Check</h4>
+          <p class="text-blue-300 text-sm">TDS & mineral level testing to help you pick the right filter.</p>
+        </div>
+
+        <!-- Emergency -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <div class="mx-auto mb-4 text-blue-400">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m0-4h.01M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9z" />
+            </svg>
+          </div>
+          <h4 class="text-xl font-semibold mb-2">Emergency Service</h4>
+          <p class="text-blue-300 text-sm">Facing urgent water issues? We offer same-day emergency support.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Section -->
+  <section id="book" class="py-16 bg-gradient-to-r from-[#0b1f35] to-[#143d5c] text-center">
+    <h3 class="text-3xl font-bold text-blue-100 mb-4">Ready to Book a Service?</h3>
+    <p class="text-blue-300 mb-6">Our trained technicians are just a click away. All brands supported.</p>
+    <a href="contact.html" class="px-8 py-3 glow-btn rounded text-white font-semibold">Book Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-tr from-[#020c1a] to-[#061a2f] text-center text-sm py-6 text-blue-300">
+    <p>&copy; 2025 ShraddhaAqua. All rights reserved.</p>
+    <p>Follow us:
+      <a href="#" class="underline hover:text-white" target="_blank">Facebook</a> |
+      <a href="https://www.instagram.com/shraddhaqua?igsh=bmIzYTZqb2lmb3A5" class="underline hover:text-white" target="_blank">Instagram</a> |
+      <a href="https://whatsapp.com/channel/0029Vb6AHIf8V0tkhZzXkq0f" class="underline hover:text-white" target="_blank">WhatsApp</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Filters | ShraddhaAqua</title>
+  <meta name="description" content="Shop household RO filters or inquire for industrial water filtration systems.">
+  <meta name="keywords" content="RO filters, household filters, industrial water treatment, Shraddha Aqua">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .glow-btn {
+      background-image: linear-gradient(135deg, #3b82f6, #60a5fa);
+      transition: all 0.3s ease;
+    }
+
+    .glow-btn:hover {
+      box-shadow: 0 0 20px #3b82f6;
+      transform: translateY(-2px);
+    }
+
+    .card {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-tr from-[#050d1f] to-[#0b2541] text-white">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-[#061830] to-[#0c2a50] shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row md:justify-between md:items-center gap-4">
+      <div class="flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-blue-400">ShraddhaAqua</h1>
+        <!-- Mobile menu button -->
+        <button id="menu-btn" class="md:hidden ml-4 text-blue-100 hover:text-blue-400 focus:outline-none"
+          aria-label="Open Menu">
+          <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+      <div class="flex-1 flex justify-center md:justify-center">
+        <form class="w-full max-w-xs">
+          <div class="relative">
+            <input type="text" placeholder="Search filters, parts..."
+              class="w-full pl-4 pr-10 py-2 rounded-full bg-[#13294b] text-blue-100 placeholder-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400 transition" />
+            <button type="submit" class="absolute right-2 top-1/2 -translate-y-1/2 text-white hover:text-blue-400">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" fill="none" />
+                <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" />
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+      <nav id="main-nav"
+        class="space-y-2 md:space-y-0 md:space-x-6 text-sm font-medium text-blue-100 flex-col md:flex-row flex md:items-center md:static absolute left-0 right-0 top-full bg-[#0c2a50] md:bg-transparent px-4 md:px-0 py-4 md:py-0 transition-all duration-200 ease-in-out z-40 hidden md:flex">
+        <a href="index.html" class="hover:text-blue-400 block md:inline">Home</a>
+        <a href="products.html" class="hover:text-blue-400 block md:inline">Filters</a>
+        <a href="parts.html" class="hover:text-blue-400 block md:inline">Parts</a>
+        <a href="services.html" class="hover:text-blue-400 block md:inline">Service</a>
+        <a href="contact.html" class="hover:text-blue-400 block md:inline">Contact</a>
+      </nav>
+    </div>
+    <script>
+      // Simple mobile menu toggle
+      const menuBtn = document.getElementById('menu-btn');
+      const nav = document.getElementById('main-nav');
+      menuBtn?.addEventListener('click', () => {
+        nav.classList.toggle('hidden');
+      });
+      // Optional: Hide menu on nav link click (mobile)
+      nav?.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          if (window.innerWidth < 768) nav.classList.add('hidden');
+        });
+      });
+    </script>
+  </header>
+
+  <!-- Hero -->
+  <section class="py-20 bg-gradient-to-br from-[#0c1f35] via-[#0d2949] to-[#0f3a5c] text-center">
+    <h2 class="text-4xl font-bold mb-4">Filters for Every Water Need</h2>
+    <p class="text-blue-300 mb-6">Direct sale of household RO filters. Contact us for industrial solutions.</p>
+    <a href="#household" class="px-6 py-3 rounded glow-btn text-white font-medium">Shop Household Filters</a>
+  </section>
+
+  <!-- Household Filters -->
+  <section class="py-16 bg-gradient-to-br from-[#081e33] to-[#102f4d]">
+    <div id="household-ro-filters" class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-blue-100 text-center mb-10">Household RO Filters</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- KENT Grand -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Grand</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-grand/kent-grand-w.webp" alt="KENT Grand"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable, RO + UF + TDS control + UV In-Tank</p>
+          <p class="text-2xl font-bold text-white mb-2">₹12999 <span
+              class="line-through text-blue-400 text-sm ml-2">₹23000</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Grand Star W -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Grand Star W</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-grand-star/kent-grand-star-w.webp" alt="KENT Grand Star W"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable RO + UV + UF + TDS Control + Alkaline + Copper + UV
+            In-tank + Digital Display</p>
+          <p class="text-2xl font-bold text-white mb-2">₹22999 <span
+              class="line-through text-blue-400 text-sm ml-2">₹28000</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Grand Star B -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center ">
+          <h4 class="text-xl font-semibold mb-2">KENT Grand Star B</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-grand-star/kent-grand-star-b.webp" alt="KENT Grand Star B"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable RO + UV + UF + TDS Control + Alkaline + Copper + UV
+            In-tank + Digital Display</p>
+          <p class="text-2xl font-bold text-white mb-2">₹22999 <span
+              class="line-through text-blue-400 text-sm ml-2">₹28000</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Grand Plus W -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Grand Plus</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-grand-plus/kent-grand-plus-w.webp" alt="KENT Grand Plus"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable RO + UV + UF + TDS Control + UV In-tank Flow Rate
+            20L/hr.*</p>
+          <p class="text-2xl font-bold text-white mb-2">₹19999 <span
+              class="line-through text-blue-400 text-sm ml-2">₹25500</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Grand Plus B -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Grand Plus B</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-grand-plus/kent-grand-plus-b.webp" alt="KENT Grand Plus B"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable RO + UV + UF + TDS Control + UV In-tank Flow Rate
+            20L/hr.*</p>
+          <p class="text-2xl font-bold text-white mb-2">₹19999 <span
+              class="line-through text-blue-400 text-sm ml-2">₹25500</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!--KENT Sapphire W-->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Sapphire W</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-sapphire/kent-sapphire-w.webp" alt="KENT Sapphire W"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Next Gen RO Water Purifier,
+            RO+UF+Inline UV+Alkaline+TDS Control
+            + UV LED in Tank that enhances pH up to 9.5*</p>
+          <p class="text-2xl font-bold text-white mb-2">₹19500 <span
+              class="line-through text-blue-400 text-sm ml-2">₹25000</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Sapphire B -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Sapphire B</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-sapphire/kent-sapphire-b.webp" alt="KENT Sapphire B"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Next Gen RO Water Purifier,
+            RO+UF+Inline UV+Alkaline+TDS Control
+            + UV LED in Tank that enhances pH up to 9.5*</p>
+          <p class="text-2xl font-bold text-white mb-2">₹19500 <span
+              class="line-through text-blue-400 text-sm ml-2">₹25000</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Prime Star W -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Prime Star W</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-prime-star/kent-prime-star-w.webp" alt="KENT Prime Star W"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable
+            RO + UV + UF + TDS Control + Alkaline + Copper + UV In-tank + Digital Display
+            Flow Rate 20L/hr.*</p>
+          <p class="text-2xl font-bold text-white mb-2">₹22200 <span
+              class="line-through text-blue-400 text-sm ml-2">₹28000</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Pearl Star W -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Pearl Star W</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-pearl-star/kent-pearl-star-w.webp" alt="KENT Pearl Star W"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable
+            RO + UV + UF + TDS Control + Alkaline + Copper + Detachable Tank + Digital Display
+            Flow Rate 20L/hr.*</p>
+          <p class="text-2xl font-bold text-white mb-2">₹22200 <span
+              class="line-through text-blue-400 text-sm ml-2">₹28000</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Marvel -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Marvel B</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-marvel/kent-marvel-b.webp" alt="KENT Marvel B"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable
+            RO + UF + TDS Control
+            + UV in Tank | Flow Rate 20L/hr.*</p>
+          <p class="text-2xl font-bold text-white mb-2">₹19500 <!-- <span
+              class="line-through text-blue-400 text-sm ml-2">₹20000</span> --> </p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Ace -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Ace</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-ace/kent-ace-w.webp" alt="KENT Ace"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable RO + UV + UF + TDS Control + UV In-tank Flow Rate
+            15L/hr.*</p>
+          <p class="text-2xl font-bold text-white mb-2">₹10999 <span
+              class="line-through text-blue-400 text-sm ml-2">₹20000</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Ace B -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Ace B</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-ace/kent-ace-b.webp" alt="KENT Ace B"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable RO + UV + UF + TDS Control + UV In-tank Flow Rate
+            15L/hr.*</p>
+          <p class="text-2xl font-bold text-white mb-2">₹10999 <span
+              class="line-through text-blue-400 text-sm ml-2">₹20000</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Ace Plus W -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Ace Plus W</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-ace-plus/kent-ace-plus-w.webp" alt="KENT Ace Plus W"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable
+            RO + UV + UF + TDS Control + Alkaline + Copper + UV In-tank</p>
+          <p class="text-2xl font-bold text-white mb-2">₹19999 <span
+              class="line-through text-blue-400 text-sm ml-2">₹25000</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Ace Plus B -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Ace Plus B</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-ace-plus/kent-ace-plus-b.webp" alt="KENT Ace Plus B"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable
+            RO + UV + UF + TDS Control + Alkaline + Copper + UV In-tank</p>
+          <p class="text-2xl font-bold text-white mb-2">₹19999 <span
+              class="line-through text-blue-400 text-sm ml-2">₹25000</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Ace Star B -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Ace Star B</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-ace-star/kent-ace-star-b.webp" alt="KENT Ace Star B"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable RO + UV + UF + TDS Control + Alkaline + Copper + UV
+            In-tank Flow Rate 15L/hr.*</p>
+          <p class="text-2xl font-bold text-white mb-2">₹19999 <span
+              class="line-through text-blue-400 text-sm ml-2">₹25000</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Supreme W -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Supreme W</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-supreme/kent-supreme-w.webp" alt="KENT Supreme W"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable
+            RO + UF + TDS Control
+            +UV In-tank
+            Flow Rate 20L/hr.*</p>
+          <p class="text-2xl font-bold text-white mb-2">₹13999 <span
+              class="line-through text-blue-400 text-sm ml-2">₹23500</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- Kent Supreme B -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Supreme B</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-supreme/kent-supreme-b.webp" alt="KENT Supreme B"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable
+            RO + UF + TDS Control
+            +UV In-tank
+            Flow Rate 20L/hr.*</p>
+          <p class="text-2xl font-bold text-white mb-2">₹13999 <span
+              class="line-through text-blue-400 text-sm ml-2">₹23000</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Supreme Plus W -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Supreme plus W</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-supreme-plus/kent-supreme-plus-w.webp"
+            alt="KENT Supreme plus W" class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable
+            RO + UV + UF + TDS Control + Alkaline + Copper + UV In-tank Flow Rate 20L/hr.*</p>
+          <p class="text-2xl font-bold text-white mb-2">₹14499 <span
+              class="line-through text-blue-400 text-sm ml-2">₹26500</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Supreme Plus B -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Supreme plus B</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-supreme-plus/kent-supreme-plus-b.webp"
+            alt="KENT Supreme plus B" class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable
+            RO + UV + UF + TDS Control + Alkaline + Copper + UV In-tank Flow Rate 20L/hr.*</p>
+          <p class="text-2xl font-bold text-white mb-2">₹14499 <span
+              class="line-through text-blue-400 text-sm ml-2">₹26500</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Supreme Star B-->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Supreme Star B</h4>
+          <img src="https://www.kent.co.in/images-new/ro/kent-supreme-star/kent-supreme-star-b.webp"
+            alt="KENT Supreme Star B" class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable
+            RO + UV + UF + TDS Control + Alkaline + Copper + UV In-tank Flow Rate 20L/hr.*</p>
+          <p class="text-2xl font-bold text-white mb-2">₹28000 </p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+
+
+
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+
+    <!------------------------------------------------------------------------------------------------------------------------------>
+
+    <hr class="my-12 border-t-2 border-blue-800 opacity-40 rounded">
+
+    <!------------------------------------------------------------------------------------------------------------------------------>
+
+    <div id="household-uv-filters" class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-blue-100 text-center mb-10">Household UV Filters</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- KENT Maxx -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Maxx</h4>
+          <img src="https://www.kent.co.in/images-new/water-purifiers/uv/kent-maxx/kent-maxx.webp" alt="KENT Maxx"
+            class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable
+            UV + UF + Detachable Tank
+            Flow Rate 60L/hr.</p>
+          <p class="text-2xl font-bold text-white mb-2">₹8999 <span
+              class="line-through text-blue-400 text-sm ml-2">₹10500</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Maxx alkaline B -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Maxx alkaline B</h4>
+          <img src="https://www.kent.co.in/images-new/water-purifiers/uv/kent-maxx-alkaline/kent-maxx-alkaline-b.webp"
+            alt="KENT Maxx alkaline B" class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable
+            UV + UF + Alkaline + Detachable Tank
+            Flow Rate 20L/hr.</p>
+          <p class="text-2xl font-bold text-white mb-2">₹9999 <span
+              class="line-through text-blue-400 text-sm ml-2">₹11500</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Ultra Storage -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center ">
+          <h4 class="text-xl font-semibold mb-2">KENT Ultra Storage</h4>
+          <img src="https://www.kent.co.in/images-new/water-purifiers/uv/kent-ultra-storage/kent-ultra-storage.webp"
+            alt="KENT Ultra Storage" class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable UV + UF Flow Rate 60L/hr.</p>
+          <p class="text-2xl font-bold text-white mb-2">₹7799 <span
+              class="line-through text-blue-400 text-sm ml-2">₹9500</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+        <!-- KENT Ultra Storage With Active Copper -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+          <h4 class="text-xl font-semibold mb-2">KENT Ultra Storage With Active Copper</h4>
+          <img src="https://www.kent.co.in/images-new/water-purifiers/uv/kent-ultra-storage-copper/kent-ultra-storage-copper.webp"
+            alt="KENT Ultra Storage With Active Copper" class="w-full h-auto object-cover mb-4 rounded">
+          <p class="text-blue-300 text-sm mb-3">Wall Mountable UV + UF Flow Rate 60L/hr.</p>
+          <p class="text-2xl font-bold text-white mb-2">₹12200 <span
+              class="line-through text-blue-400 text-sm ml-2">₹13000</span></p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Industrial Filters -->
+  <section id="industrial" class="py-16 bg-gradient-to-br from-[#071c2f] to-[#0c2a45]">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-blue-100 text-center mb-10">Industrial Filter Solutions</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
+
+        <!-- Industrial Filter 1 -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card">
+          <h4 class="text-xl font-semibold mb-2">Multigrade Sand Filter</h4>
+          <p class="text-blue-300 text-sm mb-4">Designed for commercial and industrial water purification needs.</p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded">Contact to Buy</a>
+        </div>
+
+        <!-- Industrial Filter 2 -->
+        <div class="bg-[#0f2d4c] p-6 rounded-lg card">
+          <h4 class="text-xl font-semibold mb-2">Industrial RO System</h4>
+          <p class="text-blue-300 text-sm mb-4">Custom-built systems for large-scale purification applications.</p>
+          <a href="" class="glow-btn px-4 py-2 text-sm rounded">Contact to Buy</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-tr from-[#020c1a] to-[#061a2f] text-center text-sm py-6 text-blue-300">
+    <p>&copy; 2025 ShraddhaAqua. All rights reserved.</p>
+    <p>Follow us:
+      <a href="#" class="underline hover:text-white" target="_blank">Facebook</a> |
+      <a href="https://www.instagram.com/shraddhaqua?igsh=bmIzYTZqb2lmb3A5" class="underline hover:text-white"
+        target="_blank">Instagram</a> |
+      <a href="https://whatsapp.com/channel/0029Vb6AHIf8V0tkhZzXkq0f" class="underline hover:text-white"
+        target="_blank">WhatsApp</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>

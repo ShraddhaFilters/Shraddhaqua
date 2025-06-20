@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | ShraddhaAqua</title>
+  <meta name="description" content="Contact ShraddhaAqua for water filter consultations, service bookings, and product inquiries.">
+  <meta name="keywords" content="ShraddhaAqua, contact, water filter service, RO parts, book service, help">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .glow-btn {
+      background-image: linear-gradient(135deg, #3b82f6, #60a5fa);
+      transition: all 0.3s ease;
+    }
+
+    .glow-btn:hover {
+      box-shadow: 0 0 20px #3b82f6;
+      transform: translateY(-2px);
+    }
+
+    .card {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+    }
+
+    input, textarea {
+      background-color: #0f2d4c;
+      color: #d1e9ff;
+    }
+
+    input::placeholder, textarea::placeholder {
+      color: #93c5fd;
+    }
+
+    input:focus, textarea:focus {
+      outline: none;
+      border: 1px solid #3b82f6;
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-tr from-[#050d1f] to-[#0b2541] text-white">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-[#061830] to-[#0c2a50] shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-400">ShraddhaAqua</h1>
+      <nav class="space-x-6 text-sm font-medium text-blue-100">
+        <a href="index.html" class="hover:text-blue-400">Home</a>
+        <a href="index.html#products" class="hover:text-blue-400">Filters</a>
+        <a href="index.html#parts" class="hover:text-blue-400">Parts</a>
+        <a href="index.html#services" class="hover:text-blue-400">Service</a>
+        <a href="#contact" class="text-blue-400 font-semibold">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gradient-to-br from-[#0c1f35] via-[#0e2e4c] to-[#123a5c]">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-6 text-blue-100">Get in Touch</h2>
+      <p class="text-center text-blue-300 mb-10">Have a question or need help? Fill out the form below and we'll get back to you soon.</p>
+      <form class="grid grid-cols-1 gap-6 bg-[#0f2d4c] p-8 rounded-lg shadow-lg card">
+        <div>
+          <label class="block mb-2 text-sm font-medium text-blue-200">Name</label>
+          <input type="text" placeholder="Your full name" class="w-full p-3 rounded border border-blue-700" required>
+        </div>
+        <div>
+          <label class="block mb-2 text-sm font-medium text-blue-200">Email</label>
+          <input type="email" placeholder="you@example.com" class="w-full p-3 rounded border border-blue-700" required>
+        </div>
+        <div>
+          <label class="block mb-2 text-sm font-medium text-blue-200">Phone Number</label>
+          <input type="tel" placeholder="9876543210" class="w-full p-3 rounded border border-blue-700">
+        </div>
+        <div>
+          <label class="block mb-2 text-sm font-medium text-blue-200">Message</label>
+          <textarea id="msg" rows="4" placeholder="Tell us how we can help you..." class="w-full p-3 rounded border border-blue-700" required></textarea>
+        </div>
+        <div class="text-center">
+          <input type="submit" value="Send Message" class="glow-btn px-6 py-3 rounded text-white font-medium cursor-pointer hover:bg-blue-500 transition duration-300">
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Info Section -->
+  <section class="py-10 bg-gradient-to-r from-[#0b1e34] to-[#123456] text-center text-blue-200">
+    <div class="max-w-4xl mx-auto px-4 space-y-6">
+      <p><strong>Email:</strong><a href="mailto:shraddhafilters@gmail.com"> shraddhafilters@gmail.com</a> </p>
+      <p><strong>Phone:</strong> +91-98507-53278</p>
+      <p><strong>Location:</strong> Shahada, Maharashtra, India</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-tr from-[#020c1a] to-[#061a2f] text-center text-sm py-6 text-blue-300">
+    <p>&copy; 2025 ShraddhaAqua. All rights reserved.</p>
+    <p>Follow us:
+      <a href="#" class="underline hover:text-white" target="_blank">Facebook</a> |
+      <a href="https://www.instagram.com/shraddhaqua?igsh=bmIzYTZqb2lmb3A5" class="underline hover:text-white" target="_blank">Instagram</a> |
+      <a href="https://whatsapp.com/channel/0029Vb6AHIf8V0tkhZzXkq0f" class="underline hover:text-white" target="_blank">WhatsApp</a>
+    </p>
+  </footer>
+
+  <script src="/contact.js"></script>
+</body>
+
+</html>
