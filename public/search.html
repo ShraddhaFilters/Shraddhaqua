@@ -51,13 +51,16 @@
         </button>
       </div>
       <div class="flex-1 flex justify-center md:justify-center">
-        <form action="/search" method="GET" class="w-full max-w-xs">
+        <form class="w-full max-w-xs">
           <div class="relative">
-            <input type="text"  name="query" placeholder="Search filters, parts..." class="w-full pl-4 pr-10 py-2 rounded-full bg-[#13294b] text-blue-100 placeholder-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400 transition" />
+            <input type="text" placeholder="Search filters, parts..."
+              class="w-full pl-4 pr-10 py-2 rounded-full bg-[#13294b] text-blue-100 placeholder-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400 transition" />
             <button type="submit" class="absolute right-2 top-1/2 -translate-y-1/2 text-white hover:text-blue-400">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" fill="none"/>
-                <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" fill="none" />
+                <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" />
               </svg>
             </button>
           </div>
@@ -92,41 +95,16 @@
   <section class="py-20 bg-gradient-to-br from-[#0c1f35] via-[#0d2949] to-[#0f3a5c] text-center">
     <h2 class="text-4xl font-bold mb-4">Filters for Every Water Need</h2>
     <p class="text-blue-300 mb-6">Direct sale of household RO filters. Contact us for industrial solutions.</p>
-    <a href="#household" class="px-6 py-3 rounded glow-btn text-white font-medium">Shop Household Filters</a>
+    <a href="/products" class="px-6 py-3 rounded glow-btn text-white font-medium">Buy Now</a>
   </section>
 
   <!-- Household Filters -->
   <section class="py-16 bg-gradient-to-br from-[#081e33] to-[#102f4d]">
     <div id="household-ro-filters" class="max-w-6xl mx-auto px-4">
-      <h3 class="text-3xl font-bold text-blue-100 text-center mb-10">Household RO Filters</h3>
+      <h3 class="text-3xl font-bold text-blue-100 text-center mb-10">Your Search Query</h3>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
         {{card}}
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Industrial Filters -->
-  <section id="industrial" class="py-16 bg-gradient-to-br from-[#071c2f] to-[#0c2a45]">
-    <div class="max-w-6xl mx-auto px-4">
-      <h3 class="text-3xl font-bold text-blue-100 text-center mb-10">Industrial Filter Solutions</h3>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
-
-        <!-- Industrial Filter 1 -->
-        <div class="bg-[#0f2d4c] p-6 rounded-lg card">
-          <h4 class="text-xl font-semibold mb-2">Multigrade Sand Filter</h4>
-          <p class="text-blue-300 text-sm mb-4">Designed for commercial and industrial water purification needs.</p>
-          <a href="" class="glow-btn px-4 py-2 text-sm rounded">Contact to Buy</a>
-        </div>
-
-        <!-- Industrial Filter 2 -->
-        <div class="bg-[#0f2d4c] p-6 rounded-lg card">
-          <h4 class="text-xl font-semibold mb-2">Industrial RO System</h4>
-          <p class="text-blue-300 text-sm mb-4">Custom-built systems for large-scale purification applications.</p>
-          <a href="" class="glow-btn px-4 py-2 text-sm rounded">Contact to Buy</a>
-        </div>
-
       </div>
     </div>
   </section>
