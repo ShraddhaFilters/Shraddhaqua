@@ -137,8 +137,8 @@ app.post("/buy", async (req, res) => {
       phone,
     },
     notify: {
-      sms: true,
-      email: true,
+      sms: false,
+      email: false,
     },
     reminder_enable: true,
     callback_url: "https://shraddhaqua.onrender.com/payment-success",
