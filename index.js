@@ -398,9 +398,10 @@ app.get("/search", (req, res) => {
     });
 
     if (matchedProducts.length === 0) {
-      return res.send(
-        `<h1 style="color:white; padding:2rem; font-family:sans-serif;">No products found for "${query}"</h1>`,
-      );
+      var html = fs.readFileSync(path.join(__dirname,"public/products.html"),'utf8');
+      
+      const finalhtml = html.replace("{{card}}",`<h1 style="color:white; padding:2rem; font-family:sans-serif;">No products found for "${query}"</h1>` )
+      return res.send(finalhtml);
     }
 
     const cards = matchedProducts
