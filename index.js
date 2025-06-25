@@ -116,7 +116,6 @@ app.post("/buy", async (req, res) => {
     accept_partial: false,
     description: "Payment for Shraddha Aqua",
     reference_id: referenceId,
-    expire_by: Math.floor(Date.now() / 1000) + 5 * 60,
     customer: {
       name,
       email,
@@ -134,7 +133,7 @@ app.post("/buy", async (req, res) => {
   try {
     const response = await razorpay.paymentLink.create(options);
     console.log("Short URL:", response.short_url); // log to console
-    res.json({ payment_link: response.short_url });
+    res.redirect(response.short_url);
   } catch (err) {
     console.error("Error creating payment link:", err);
     res.status(500).json({ error: "Failed to create payment link" });
