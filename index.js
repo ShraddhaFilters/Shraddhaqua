@@ -13,6 +13,18 @@ const razorpay = new Razorpay({
   key_secret: "ypuldkqA6GTUY11JZgWEOxWx",
 });
 
+
+app.get("/index.html", (req,res) => {
+  res.redirect("/");
+})
+
+app.get("/products.html", (req,res) => {
+  res.redirect(301,"/products");
+})
+app.get("/parts", (req,res) => {
+  res.sendFile(path.join(__dirname, "public/coming.html"));
+})
+
 // Serve static files from "public" directory
 app.use(express.static(path.join(__dirname, "public")));
 
@@ -61,6 +73,9 @@ function getProducts(filePath) {
   return products;
 }
 const productsInfo = getProducts(path.join(__dirname, "products.txt"));
+
+
+
 
 app.get("/info/:id", (req, res) => {
   const id = req.params.id;
@@ -298,7 +313,10 @@ app.get("/product/:id", (req, res) => {
           <span class="text-sm text-blue-200">(128 ratings)</span>
         </div>
 
-        <p class="text-2xl font-bold text-white mb-2">₹${foundProduct.price} <span class="line-through text-blue-400 text-sm ml-2">₹${foundProduct.mrp}</span></p>
+        <p class="text-2xl font-bold text-white mb-2">₹${foundProduct.price} <span class="line-through text-blue-400 text-sm ml-2">₹${foundProduct.mrp}</span></p><br>
+         <button id='buyNow' class="glow-btn px-6 py-3 text-white font-medium rounded">Buy Now</button>
+          <button id='contact' class="px-6 py-3 rounded border border-blue-400 text-blue-300 hover:bg-blue-800 transition">Contact Us</button><br>
+        
         <p class="text-green-400 mb-4">In Stock | Free Delivery</p>
 
         <ul class="text-blue-200 text-sm mb-6 space-y-2">
@@ -306,9 +324,7 @@ app.get("/product/:id", (req, res) => {
         </ul>
 
         <div class="flex gap-4 mb-6">
-          <button id='buyNow' class="glow-btn px-6 py-3 text-white font-medium rounded">Buy Now</button>
-          <button id='contact' class="px-6 py-3 rounded border border-blue-400 text-blue-300 hover:bg-blue-800 transition">Contact Us</button>
-        </div>
+         </div>
 
         <div class="mt-6">
           <h3 class="text-lg font-semibold mb-2 text-blue-100">Specifications</h3>
