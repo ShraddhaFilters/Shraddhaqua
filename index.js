@@ -24,6 +24,9 @@ app.get("/products.html", (req,res) => {
 app.get("/parts", (req,res) => {
   res.sendFile(path.join(__dirname, "public/coming.html"));
 })
+app.get("/parts.html", (req,res) => {
+  res.sendFile(path.join(__dirname, "public/coming.html"));
+})
 
 // Serve static files from "public" directory
 app.use(express.static(path.join(__dirname, "public")));
