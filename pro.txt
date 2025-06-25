@@ -1,0 +1,20 @@
+id: 1023
+name: RO Booster Pump
+price: 849
+mrp: 1099
+brand: ShraddhaAqua
+img: ["https://via.placeholder.com/400x400?text=RO+Pump", "https://via.placeholder.com/80", "https://via.placeholder.com/80"]
+description: [
+  "Heavy-duty 24V pump for household RO systems",
+  "Consistent water pressure for better purification",
+  "Long-lasting copper motor coil",
+  "6-month replacement warranty"
+]
+specs: {
+  "Voltage": "24V DC",
+  "Material": "Stainless Steel + Plastic",
+  "Weight": "750g",
+  "Warranty": "6 Months"
+}
+details: "The ShraddhaAqua RO Booster Pump is designed to enhance the water pressure in your household RO system, ensuring efficient purification and consistent water flow. With a heavy-duty 24V motor and a long-lasting copper coil, this pump is built for durability and performance.|Whether you're replacing an old pump or upgrading your system, the ShraddhaAqua RO Booster Pump is the perfect choice for reliable water purification."
+---

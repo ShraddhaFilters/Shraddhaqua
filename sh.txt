@@ -1,0 +1,579 @@
+id: 110301
+name: AQUA D PURE 4 in 1 Copper RO Water Purifier
+price: 4947
+mrp: 24999
+brand: AQUA D PURE
+img:["https://static.wixstatic.com/media/55eb38_55e604945b5c4470be98dce0365d4389~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_55e604945b5c4470be98dce0365d4389~mv2.jpg","https://static.wixstatic.com/media/55eb38_6b876634c37c4503bf3a584bab6d2c8f~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_6b876634c37c4503bf3a584bab6d2c8f~mv2.jpg","https://static.wixstatic.com/media/55eb38_c962e62cf0f54916bfbd915ca4f63962~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_c962e62cf0f54916bfbd915ca4f63962~mv2.jpg","https://static.wixstatic.com/media/55eb38_905782ee9e7a461f99715678e30f95c8~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_905782ee9e7a461f99715678e30f95c8~mv2.jpg","https://static.wixstatic.com/media/55eb38_9a7f8ec0dc0746538236a756583a1458~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_9a7f8ec0dc0746538236a756583a1458~mv2.jpg","https://static.wixstatic.com/media/55eb38_400275b53ff84ebab0ff78131b7a317c~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_400275b53ff84ebab0ff78131b7a317c~mv2.jpg"]
+description: ["Taste Adjuster (TDS) controller enables adjustment of taste depending upon the source of water.","Copper Technology provides goodness of copper in water.","High Quality LED UV Deactivates Bacteria and Germs from water","Flexible installation: The purifier can be easily wall mounted or kept on the counter top for Installation.","For Installation – You need to pay Upto Rs. 500/- to the technician.","Auto Shut OFF - Fully automatic shut off function which automatically switched off the Machine when its water tanks get full.","RO Purification reduces TDS, hardness, and removes pesticides & heavy metals.","Eliminates harmful bacteria, viruses, protozoa & cysts.","UF system removes bacteria and retains beneficial minerals that an RO system removes. Water passes through UF helps to adjust TDS of pure drinking water with the help of TDS Adjuster."]
+specs: {"Voltage": "220V","Wattage": "11 Watt Hours","Weight": "7 kg","Dimensions": "41L x 15W x 51H cm","Special Features": "Automatic Shut Off"}
+details: "The AQUA D PURE 4 in 1 Copper RO Water Purifier is designed for modern households, combining advanced purification technologies with the health benefits of copper. It features a multi-stage purification process including RO, UV, and UF, ensuring removal of dissolved impurities, bacteria, viruses, and heavy metals. The copper technology infuses water with essential minerals, while the TDS controller allows you to adjust the taste based on your water source. Its compact design supports both wall-mount and countertop installation. The purifier is fully automatic with an auto shut-off feature for convenience and safety. Ideal for families seeking safe, healthy, and great-tasting water."
+
+---
+
+id: 110302
+name: AQUA D PURE 4 in 1 Alkline RO Water Purifier
+price: 4998 
+mrp: 19999
+brand: AQUA D PURE
+img: [
+  "https://static.wixstatic.com/media/55eb38_644a2d9bd465492da6d0a81307ffec86~mv2.jpg/v1/fill/w_507,h_507,al_c,q_85,usm_0.66_1.00_0.01/55eb38_644a2d9bd465492da6d0a81307ffec86~mv2.jpg" ,
+  "https://static.wixstatic.com/media/55eb38_65fc5aa7871c4158a689666021697802~mv2.jpg/v1/fill/w_507,h_507,al_c,q_85,usm_0.66_1.00_0.01/55eb38_65fc5aa7871c4158a689666021697802~mv2.jpg" , 
+  "https://static.wixstatic.com/media/55eb38_ef93842229cb47e19a38c03b631a9c56~mv2.jpg/v1/fill/w_507,h_507,al_c,q_85,usm_0.66_1.00_0.01/55eb38_ef93842229cb47e19a38c03b631a9c56~mv2.jpg" , 
+  "https://static.wixstatic.com/media/55eb38_0286755722044c7f9e716ec3581b6534~mv2.jpg/v1/fill/w_507,h_507,al_c,q_85,usm_0.66_1.00_0.01/55eb38_0286755722044c7f9e716ec3581b6534~mv2.jpg" , 
+  "https://static.wixstatic.com/media/55eb38_0ca2089702834f77806fc726d94ba36b~mv2.jpg/v1/fill/w_507,h_507,al_c,q_85,usm_0.66_1.00_0.01/55eb38_0ca2089702834f77806fc726d94ba36b~mv2.jpg"
+  ]
+description: [
+  "Taste Adjuster (TDS) controller enables adjustment of taste depending upon the source of water",
+  "Other features: Longer filter life, High-speed purification, Membrane protector, Premium design and aesthetics.",
+  "Includes – RO Purifier, Pre Filter, Installation accessories, user manual.",
+  "Felxible installation: The purifier can be easily wall mounted or kept on the counter top for Installation – You need to pay Upto Rs. 500/- to the technician.",
+  "Auto Shut OFF - Fully automatic shut off function which automatically switched off the Machine when its water tanks get full.",
+  "RO Purification reduces TDS, hardness, and removes pesticides & heavy metals.",
+  "Eliminates harmful bacteria, viruses, protozoa & cysts.",
+  "UF system removes bacteria and retains beneficial minerals that an RO system removes.",
+  "Water passes through UF helps to adjust TDS of pure drinking water with the help of TDS Adjuster.",
+  "Copper Mineral Infuser is a cartridge that provides goodness of copper in water that prevents the forming of free radicals by oxidation and negates their ill effects.",
+  "Triple layered RO+UV+UF protection to ensure that the water you drink is absolutely safe without any compromises.",
+  "RO removes dissolved impurities, microorganisms, heavy metals and radiomatter, while UV deactivates microorganisms such as bacteria and viruses"
+]
+specs: {
+  "Voltage": "220V",
+  "Wattage": "11 Watt Hours",
+  "Weight": "7 kg",
+  "Dimensions": "41L x 15W x 51H cm",
+  "Special Features": "Automatic Shut-Off"
+}
+details: "The AQUA D PURE 4 in 1 Alkaline RO Water Purifier delivers pure, healthy, and great-tasting water using a combination of RO, UV, UF, and Alkaline filtration. Its advanced TDS controller and copper mineral infuser ensure the water retains essential minerals and optimal taste. The purifier is designed for easy installation and maintenance, with a fully automatic operation and auto shut-off. Its triple-layered protection removes all common contaminants, making it suitable for all water sources. The premium design and high-speed purification make it a perfect fit for modern kitchens."
+
+---
+
+id: 110303
+name: AQUA D PURE 4 in 1 Bio Copper Zinc Alkaline RO Water Purifier
+price: 4998
+mrp: 24999
+brand: AQUA D PURE
+img: [
+  "https://static.wixstatic.com/media/55eb38_99e6382dc6754492b292412b200804cb~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_99e6382dc6754492b292412b200804cb~mv2.jpg" , 
+  "https://static.wixstatic.com/media/55eb38_756aac0ada2c42d485feaad11a0a080c~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_756aac0ada2c42d485feaad11a0a080c~mv2.jpg" , 
+  "https://static.wixstatic.com/media/55eb38_ca901eed7488468ab352450b649e4f48~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_ca901eed7488468ab352450b649e4f48~mv2.jpg" , 
+  "https://static.wixstatic.com/media/55eb38_28bdb514923a41b1a68fa479247f1e69~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_28bdb514923a41b1a68fa479247f1e69~mv2.jpg" , 
+  "https://static.wixstatic.com/media/55eb38_e2e46b54d8cf470b8daa71f957009153~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_e2e46b54d8cf470b8daa71f957009153~mv2.jpg" , 
+  "https://static.wixstatic.com/media/55eb38_be93cf5bc16d486a81ebbee31f560a7a~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_be93cf5bc16d486a81ebbee31f560a7a~mv2.jpg"
+  ]
+details: [
+  "Taste Adjuster (TDS) controller enables adjustment of taste depending upon the source of water Other features: Longer filter life, High-speed purification, Membrane protector, Premium design and aesthetics.",
+  "Includes – RO Purifier, Pre Filter, Installation accessories, user manual. Felxible installation: The purifier can be easily wall mounted or kept on the counter top for Installation – You need to pay Upto Rs. 500/- to the technician",
+  "Auto Shut OFF - Fully automatic shut off function which automatically switched off the Machine when its water tanks get full RO Purification reduces TDS, hardness, and removes pesticides & heavy metals.",
+  "Eliminates harmful bacteria, viruses, protozoa & cysts UF system removes bacteria and retains beneficial minerals that an RO system removes.",
+  "Water passes through UF helps to adjust TDS of pure drinking water with the help of TDS Adjuster High Quality RO Membrane Removes up to 96% dissolved solids (TDS) from the water",
+  "Copper Mineral Infuser is a cartridge that provides goodness of copper in water that prevents the forming of free radicals by oxidation and negates their ill effects Triple layered RO+UV+UF protection to ensure that the water you drink is absolutely safe without any compromises.",
+  "RO removes dissolved impurities, microorganisms, heavy metals and radiomatter, while UV deactivates microorganisms such as bacteria and viruses"
+]
+specs: {
+  "Voltage": "220V",
+  "Wattage": "11 Watt Hours",
+  "Weight": "7 kg",
+  "Dimensions": "41L x 15W x 51H cm",
+  "Special Features": "Automatic Shut-Off"
+}
+description: "The AQUA D PURE 4 in 1 Bio Copper Zinc Alkaline RO Water Purifier offers a comprehensive purification system with RO, UV, UF, and mineral enhancement. It not only removes all common contaminants but also enriches water with copper and zinc, supporting better immunity and overall health. The TDS controller and alkaline filter ensure the water is both safe and pleasant to drink. Its robust design, easy installation, and automatic shut-off make it a reliable choice for families. The included accessories and user manual simplify setup and maintenance, while the advanced membrane ensures long-lasting performance and high purification efficiency."
+
+---
+
+id:
+name: 
+price: 
+mrp: 
+brand: 
+img: []
+details: []
+specs: {
+  "Voltage": "",
+  "Wattage": "",
+  "Weight": "",
+  "Dimensions": " cm",
+  "Special Features": ""
+}
+description: ""
+
+---
+###########################################################################################
+
+id: 1109011
+name: Puresa Modesty High-Performance Water Purifier
+price: 14999 
+mrp: 18999
+brand: PURESA
+img: ["https://m.media-amazon.com/images/I/51d2bNoX0DL._SX342_.jpg"]
+details: [
+  "Advanced Multi-Stage Filtration: The Puresa Water Purifier features a powerful filtration system removes chlorine, heavy metals, bacteria, and other harmful contaminants, ensuring pure and safe drinking water.",
+  "Improved Taste & Odor: Designed to eliminate unpleasant odors and improve the taste of your water, providing you with fresh, clean hydration with every sip.",
+  "Fast & Efficient: With high-speed filtration, the Puresa Water Purifier delivers purified water quickly, making it ideal for busy households, athletes, and anyone who values convenience.",
+  "Eco-Friendly & Cost-Effective: Say goodbye to bottled water! long-lasting water purifier reduces plastic waste and saves you money, offering an environmentally friendly and sustainable water solution.",
+  "Sleek & User-Friendly Design: Compact and stylish, the Puresa Water Purifier seamlessly integrates into your kitchen and is easy to install and maintain, making it the perfect addition to any home."
+]
+specs: {
+  "Voltage": "",
+  "Wattage": "",
+  "Weight": "9.6 kg",
+  "Dimensions": "27.9L x 35.6W x 50.8H cm",
+  "Special Features": "LED option",
+  "Model Name": "Pu-Water-Puri-Grey",
+  "Model Number":	"Pu-Water-Puri-Grey"
+}
+description: "The Puresa High-Performance Water Purifier is the ultimate solution for clean, safe drinking water. Equipped with an advanced filtration system, this purifier effectively removes contaminants, harmful bacteria, chlorine, heavy metals, and unpleasant odors from your tap water. Designed for both performance and efficiency, it ensures the highest quality water with every use. The sleek, user-friendly design fits seamlessly into any kitchen, while the multi-stage filtration process guarantees superior purification. Perfect for families, athletes, and health-conscious individuals, the Puresa Water Purifier provides peace of mind and clean hydration, all at the push of a button. Enjoy pure, crisp, and safe water every day with Puresa – your trusted partner in water purification."
+
+---
+
+id: 1109012
+name: Puresa Modesty High-Performance Water Purifier
+price: 14999 
+mrp: 18999
+brand: PURESA
+img: ["https://m.media-amazon.com/images/I/51LcXKgVweL._SL1094_.jpg"]
+details: [
+  "Advanced Multi-Stage Filtration: The Puresa Water Purifier features a powerful filtration system removes chlorine, heavy metals, bacteria, and other harmful contaminants, ensuring pure and safe drinking water.",
+  "Improved Taste & Odor: Designed to eliminate unpleasant odors and improve the taste of your water, providing you with fresh, clean hydration with every sip.",
+  "Fast & Efficient: With high-speed filtration, the Puresa Water Purifier delivers purified water quickly, making it ideal for busy households, athletes, and anyone who values convenience.",
+  "Eco-Friendly & Cost-Effective: Say goodbye to bottled water! long-lasting water purifier reduces plastic waste and saves you money, offering an environmentally friendly and sustainable water solution.",
+  "Sleek & User-Friendly Design: Compact and stylish, the Puresa Water Purifier seamlessly integrates into your kitchen and is easy to install and maintain, making it the perfect addition to any home."
+]
+specs: {
+  "Voltage": "",
+  "Wattage": "",
+  "Weight": "9.6 kg",
+  "Dimensions": "27.9L x 35.6W x 50.8H cm",
+  "Special Features": "LED option",
+  "Model Name": "Pu-Water-Puri-Black",
+  "Model Number":	"Pu-Water-Puri-Black"
+}
+description: "The Puresa High-Performance Water Purifier is the ultimate solution for clean, safe drinking water. Equipped with an advanced filtration system, this purifier effectively removes contaminants, harmful bacteria, chlorine, heavy metals, and unpleasant odors from your tap water. Designed for both performance and efficiency, it ensures the highest quality water with every use. The sleek, user-friendly design fits seamlessly into any kitchen, while the multi-stage filtration process guarantees superior purification. Perfect for families, athletes, and health-conscious individuals, the Puresa Water Purifier provides peace of mind and clean hydration, all at the push of a button. Enjoy pure, crisp, and safe water every day with Puresa – your trusted partner in water purification."
+
+---
+
+id: 110901
+name: Puresa Modesty High-Performance Water Purifier
+price: 14999 
+mrp: 18999
+brand: PURESA
+img: ["https://m.media-amazon.com/images/I/51q3ooAC45L.jpg"]
+details: [
+  "Advanced Multi-Stage Filtration: The Puresa Water Purifier features a powerful filtration system removes chlorine, heavy metals, bacteria, and other harmful contaminants, ensuring pure and safe drinking water.",
+  "Improved Taste & Odor: Designed to eliminate unpleasant odors and improve the taste of your water, providing you with fresh, clean hydration with every sip.",
+  "Fast & Efficient: With high-speed filtration, the Puresa Water Purifier delivers purified water quickly, making it ideal for busy households, athletes, and anyone who values convenience.",
+  "Eco-Friendly & Cost-Effective: Say goodbye to bottled water! long-lasting water purifier reduces plastic waste and saves you money, offering an environmentally friendly and sustainable water solution.",
+  "Sleek & User-Friendly Design: Compact and stylish, the Puresa Water Purifier seamlessly integrates into your kitchen and is easy to install and maintain, making it the perfect addition to any home."
+]
+specs: {
+  "Voltage": "",
+  "Wattage": "",
+  "Weight": "9.6 kg",
+  "Dimensions": "27.9L x 35.6W x 50.8H cm",
+  "Special Features": "LED option",
+  "Model Name": "Pu-Water-Puri-White",
+  "Model Number":	"Pu-Water-Puri-White"
+}
+description: "The Puresa High-Performance Water Purifier is the ultimate solution for clean, safe drinking water. Equipped with an advanced filtration system, this purifier effectively removes contaminants, harmful bacteria, chlorine, heavy metals, and unpleasant odors from your tap water. Designed for both performance and efficiency, it ensures the highest quality water with every use. The sleek, user-friendly design fits seamlessly into any kitchen, while the multi-stage filtration process guarantees superior purification. Perfect for families, athletes, and health-conscious individuals, the Puresa Water Purifier provides peace of mind and clean hydration, all at the push of a button. Enjoy pure, crisp, and safe water every day with Puresa – your trusted partner in water purification."
+
+---
+
+id:
+name: 
+price: 
+mrp: 
+brand: 
+img: []
+details: []
+specs: {
+  "Voltage": "",
+  "Wattage": "",
+  "Weight": "",
+  "Dimensions": " cm",
+  "Special Features": ""
+}
+description: ""
+
+---
+
+###########################################################################################
+
+id: 111001
+name: Aqua Moor Digital Display Water Purifier, Copper With Zinc Alkaline Technology, Black Copper
+price: 5899
+mrp: 15900
+brand: Miracle Aqua
+img: [
+  "https://m.media-amazon.com/images/I/51PUPy8AmTL._SY445_.jpg",
+  "https://m.media-amazon.com/images/I/61UyoTIILML._SX342_.jpg",
+  "https://m.media-amazon.com/images/I/61WpH7e+4qL._SY445_.jpg",
+  "https://m.media-amazon.com/images/I/61t0wBxkvGL._SX342_.jpg"
+  ]
+details: [
+  "DIGITAL DISPLAY: Features a smart digital display panel for easy monitoring of water purification status and system functions",
+  "FILTRATION SYSTEM: Advanced 3-stage copper alkaline water purification technology for comprehensive water treatment",
+  "DESIGN: Sleek black acrylic construction with elegant copper accents, featuring a convenient water dispensing tap",
+  "INSTALLATION: Wall-mountable design with modern aesthetic, perfect for contemporary kitchen spaces",
+  "STORAGE CAPACITY: Dual-chamber design with separate filtered water storage compartment for continuous water supply"
+]
+specs: {
+  "Voltage": "",
+  "Wattage": "",
+  "Weight": "7 kg",
+  "Capacity":	"12 litres",
+  "Dimensions": "20L x 35W x 25H cm",
+  "Special Features": "Alkaline, Copper, zinc, Automatic Shut-Off",
+  "Package Information": "Dispenser",
+  "Installation Type":	"Wall Mount"
+}
+description: "Introducing the Aqua Moor water purifier, a sophisticated blend of technology and design. This elegant black appliance features a digital display for smart indication and incorporates a 3-stage copper alkaline purification system. The sleek, modern design includes a convenient tap dispenser finished in copper accents, making it both functional and aesthetically pleasing for your kitchen space. housed in a durable black body. The thoughtfully engineered two-compartment design ensures efficient water storage and purification. Perfect for modern homes, this water purifier combines premium build quality with practical functionality, whilst its compact form factor helps it fit seamlessly into your kitchen décor. The digital display provides clear status indicators, ensuring you're always informed about the purifier's operation."
+
+---
+
+id:
+name: 
+price: 
+mrp: 
+brand: 
+img: []
+details: []
+specs: {
+  
+}
+description: ""
+
+---
+
+id:
+name: 
+price: 
+mrp: 
+brand: 
+img: []
+details: []
+specs: {
+  
+}
+description: ""
+
+---
+
+############################################################################################
+
+id: 120401
+name: 
+price: 
+mrp: 
+brand: SWADESH
+img: [
+  "https://5.imimg.com/data5/SELLER/Default/2023/5/312032596/AS/WR/KG/9353202/uv-water-purifiers-500x500.jpeg",
+  "https://5.imimg.com/data5/SELLER/Default/2023/5/312033389/NL/AY/RG/9353202/uv-water-purifiers-500x500.jpeg",
+  "https://5.imimg.com/data5/SELLER/Default/2021/7/DC/LS/PX/9353202/domestic-ro-plant-500x500.jpeg"
+]
+details: []
+specs: {
+  "Capacity": "5-10 L",
+  "Tank Capacity":	"15 Lt",
+  "Purification Type":	"RO + UV",
+  "Installation":	"Wall Mountable",
+  "Purifier Type":	"Electric",
+  "Technology":	"RO+UV",
+  "Usage/Application":	"Home",
+  "Color":	"Blue"
+}
+description: ""
+
+---
+
+id:
+name: 
+price:  
+mrp: 
+brand: 
+img: []
+details: []
+specs: {
+  
+}
+description: ""
+
+---
+
+#############################################################################################
+
+id: 110601
+name: Merlin Matrix Black Digital Zinc
+price: 20770 
+mrp: 28999
+brand: MERLIN
+img: ["https://m.media-amazon.com/images/I/518FaNuAM3L._SX342_.jpg"]
+details: [
+  "Ro+ UV + Uf + Alkaline + Copper + Zinc + Taste Adjuster",
+  "colour - Black"
+]
+specs: {
+  "Container Type":	"Dispenser",
+  "Installation Type":	"Under Sink",
+  "Purification Method":	"Reverse Osmosis, Ultraviolet, Ultra Filtration",
+  "Power Source Type":	"Corded Electric",
+  "Supported Water TDS Level Maximum (PPM)": "2000",
+  "Material": "Plastic"
+}
+description: "Product Quality We assure our potential customers about the quality of our water purifiers products. Our water purifiers are fully loaded with advanced technology and automatic filter system for pure and clean drinking water. Our Quest To provide high-tech Water Solutions and services to customers whilst making a considerable amount of contribution to society by constantly working towards a healthy nation. Discover the Pure Drinking Water With the help of our diligent team of professionals and sound infrastructure facilities, we have been able to provide quality products and flexible services as per the varied international quality standards. Entire range of products is thoroughly tested and is delivered under the strict care of professionals. We have maintained a long-lasting relationship with our clients due to our ethical business practice and visionary approach."
+
+---
+
+id: 
+name: 
+price: 
+mrp: 
+brand:  
+img: []
+details: []
+specs: {
+  
+}
+description: ""
+
+---
+
+id: 111101
+name: Mirage Zinc Copper Alkaline RO Water Purifier
+price: 4799
+mrp: 14999
+brand: CevPure  
+img: [
+  "https://m.media-amazon.com/images/I/71OcPeiVL6L._SY445_.jpg",
+  "https://m.media-amazon.com/images/I/71Kb+ApMTDL._SX385_.jpg",
+  "https://m.media-amazon.com/images/I/71rX2DkT04L._SY445_.jpg",
+  "https://m.media-amazon.com/images/I/71Zp90dzY-L._SY445_.jpg"
+]
+details: [
+  "💧Color: Black and Copper, Capacity: 10-12 liters, Power: 60 watts, Input Water Temperature: 10˚ to 40˚C, Operative Input voltage: 100 -300V ac; 50Hz, Material tank type: Food grade engineered plastic; Can be used for TDS upto 2000 ppm. Please use a TDS meter to find out the correct TDS of your water source before buying a water purifier",
+  "💧Cevpure Copper Alkaline, RO+UV+UF+TDS charges water with 99.8% pure copper, in real time. While as per traditional practice, water needs to be stored overnight.",
+  "💧1 year warranty for electrical parts, except UV Lamp. Warranty starts from date of dispatch. Filters are consumables, get blocked or choked because of water only. If water quality is good filters life will be more, If water quality is bad (More turbidity or more TDS) Filters life will be less. so, not covered in Warranty. Installation will be completed within 48 to 72 hrs.",
+  "💧RO technology reduces TDS, hardness, and removes pesticides & heavy metals. Eliminates harmful bacteria, viruses, protozoa & cysts",
+  "💧Taste Adjuster (MTDS) controller enables adjustment of taste depending upon the source of water Booster Pump is required for the functioning of water purifier in case of inlet water pressure being less than 0.3kg/cm sq. Available through our service technician at an additional cost.",
+  "💧12 stage filtrations and 12 liter storage with Copper Alkaline Technology includes RO Purifier, Pre Filter, Installation accessories, user manual. Installation: You need to pay up to Rs. 500 – 650/- to the technician for installation.",
+  "💧1 Year Warranty: Customer has to call for installation or any complaint to our customer care support for registered.",
+  "💧CevPure Trusted Quality: CevPure has earned the trust of customers through its commitment to providing reliable and high-quality water purification solutions & invests in extensive research and development to constantly innovate and improve its products, ensuring cutting-edge technology and superior performance. CevPure focus on quality, durability, and user-friendly designs ensures a positive experience for customers. Promotes environmental sustainability."
+]
+specs: {
+  "Purification Method":	"RO + UV + UF + Zinc + Copper + Alkaline + TDS Control",
+  "Power Source Type":	"Corded Electric",
+  "LowerTemperature Rating":	"5 Degrees Celsius",
+  "Upper Temperature Rating": "45 Degrees Celsius",
+  "Supported Water TDS Level Maximum (PPM)": "2000"
+}
+description: "CevPure is a leading water filter manufacturing company dedicated to providing high-quality water purification solutions. With a commitment to innovation and sustainability, CevPure focuses on developing advanced water filtration technologies to ensure clean and safe drinking water for households, businesses, and communities.
+
+  The company's product line includes a diverse range of water filters designed to address various water quality concerns. From countertop and under-sink filters to whole-house filtration systems, CevPure offers solutions that cater to different needs and preferences.
+
+  CevPure takes pride in using state-of-the-art materials and cutting-edge technologies in its manufacturing process. The filters are engineered to effectively remove impurities such as sediment, chlorine, heavy metals, and contaminants, ensuring that the filtered water meets or exceeds industry standards.
+
+  In addition to prioritizing water quality, CevPure is committed to environmental sustainability. The company incorporates eco-friendly materials in its products and strives to minimize its carbon footprint throughout the manufacturing and distribution processes.
+
+  Customer satisfaction is a key focus for CevPure, and the company provides excellent customer support and educational resources to help users make informed decisions about their water filtration needs. With a reputation for reliability and performance, CevPure continues to be a trusted name in the water filter industry, contributing to the well-being of individuals and communities by delivering clean and pure water.
+
+  CevPure Water Purifier with Copper Alkaline Multiple Purification Process RO + UV + UF +Copper Alkaline +TDS Control, Best For Home and Office"
+
+---
+
+id: 110801
+name: Supreme Aqua Brio Water Purifier
+price: 11000
+mrp: 23999
+brand: Supreme Aqua
+img: ["https://tiimg.tistatic.com/fp/1/009/002/supreme-aqua-brio-black-ro-water-purifier-938.jpg"]
+details: [
+  "Appliances Suitable Purification of Brackish / Tap Water",
+  "Filter Cartridge - Sediment / Activated Carbon / Mineral Cartridge / TDS / UV",
+  "Purification Capacity : Up to 12 to 15LPH",
+  "Body Material : Food Grade / Non-Breakable / ABS Plastic Construction",
+  "Mounting : Wall Mounting / Counter Top Installation",
+  "Inlet Water Pressure : 0.3Kg./cm2",
+  "UV Lamp Wattage : 11W",
+  "Storage Capacity : 10 Liters",
+  "Indicator - LED Indicator",
+  "Ro Membrane : 80GPD",
+  "Booster Pump : 24 V DC / 100GPD",
+  "Main Voltage: 120 -300V AC / 50HZ",
+  "Note: Purification Capacity Tested for Raw Water Having TDS Level of 2500 ppm at Room Temperature",
+  "Usage Place: Domestic (Home, Office, Hotel, Restaurant, University, School, Club, GYM, Hospital etc. places."
+]
+specs: {
+  "Type": "Water Purifier",
+  "Material":	"Plastic",
+  "Storage Capacity":	"10 Liter (L)",
+  "Installation Type":	"Wall Mounted",
+  "Dimension (L*W*H)": "37.2 X 28.7 X 45.5 (cm)",
+  "Voltage":	"120 -300V Volt (v)",
+  "Weight (kg)": "12.5 Kilograms (kg)"
+}
+description: "The Supreme Aqua Brio Water Purifier is designed for efficient purification of brackish and tap water, making it ideal for domestic and commercial use. Featuring a multi-stage filtration system with sediment, activated carbon, mineral cartridge, TDS controller, and UV purification, it ensures safe and clean drinking water. The purifier offers a high purification capacity of up to 12–15 liters per hour and includes a robust 80GPD RO membrane and 24V DC booster pump for reliable performance. Its food-grade, non-breakable ABS plastic body supports both wall mounting and countertop installation. Additional features include a 10-liter storage tank, LED indicator, and compatibility with a wide voltage range (120–300V AC). Suitable for homes, offices, hotels, schools, gyms, and hospitals, the Supreme Aqua Brio delivers pure water with convenience and durability."
+
+---
+
+id: 110501
+name: Hi Tech AQUA NEEO COPER 12 L Gravity Based + UF Water Purifier  (Silver, COPER)
+price: 4449
+mrp: 9900
+brand:  AQUA NEEO
+img: [
+  "https://rukminim2.flixcart.com/image/832/832/xif0q/water-purifier/c/4/u/aqua-neeo-coper-hi-tech-original-imagtnm2hx38hazh.jpeg?q=70&crop=false",
+
+]
+details: []
+specs: {
+  "Model Name": "AQUA NEEO COPER",
+  "Color": "Silver, COPER",
+  "Total Capacity": "12 L",
+  "Purifying Technology": "Gravity Based + UF"
+}
+description: "Membranes Pre Filter or any plastic parts is not cover in warranty Water Purifies body color may be differ against Shaw on website customer's premises Most trusted and largest selling RO water purifier with a BEST design that shows off Mineral RO technology and an inbuilt TDS controller. Best suited for Indian homes and offices and suitable for purification of brackish/tap water/municipal corporation water supply. Another Branded Water Purifier, only 20% of water is recovered as purified water and about 80% is rejected. AQUA NEEO Save Water With a best -controlled process that recovers more than 50% water as purified water. The rejected water is stored in a separate tank that can be utilized for mopping and washing, resulting in no water wastage."
+
+---
+
+id: 110502
+name: Arroser Pure Aqua Neeo Ro Water Purifier Active Copper with B12 Alkaline + Ro + Uv + Uf + Mtds Controller Minerals Water Black 12 Litter Made In India
+price: 5249
+mrp: 24999
+brand: AQUA NEEO  
+img: [
+  "https://m.media-amazon.com/images/I/61d2bdaiMkL._SY445_.jpg",
+  "https://m.media-amazon.com/images/I/61X3xO1MgoL._SX342_.jpg",
+  "https://m.media-amazon.com/images/I/61AJCrPA4eL._SL1149_.jpg"
+]
+details: [
+  "High TDS (supports upto 3000 TDS) Reverse Osmosis High TDS Membrane It removes the following hard water contaminants that may be present in your water Lead, copper, Barium, Chromium, Mercury, Sodium, Zinc, Algae, Bacteria, Virus, Parasites such Cryptosporidium or Giardia, Copper, Unpleasant odour, Magnesium and pesticides etc. upto 3000 TDS",
+  "Ultra Violet rays cause immediate death for organisms and wipe out their ability to survive and reproduce. UV helps to destruct bacteria and viruses.",
+  "Save more on your monthly bill with an energy-saving mode The water purifier has a fully automatic operation for the convenience of the users. The purifier automatically shuts off when the storage tank is full and restarts when the water level falls below the maximum level.",
+  "Ultra filtration filter is having pores of 0.01 micro meter,Extra Wide Water level indicator , 12 Ltr. Water Storage Capacity",
+  "With multi-stage purification technology including RO+UV+UF+TDS controller you can be rest assured that the water is 100% safe to drink for you and your family"
+]
+specs: {
+  "Other Special Features of the Product":	"	Automatic Shut-Off, Permanent Filter, Auto Clean",
+  "Container Type":	"Dispenser",
+  "Installation Type":	"Under Sink",
+  "Purification Method":	"Reverse Osmosis, Ultraviolet, Ultra Filtration",
+  "Power Source Type":	"Corded Electric"
+}
+description: "The Arroser Pure Aqua Neeo RO Water Purifier is engineered for advanced water purification, supporting high TDS levels up to 3000 ppm. Featuring a multi-stage filtration system with RO, UV, UF, and MTDS controller, it effectively removes heavy metals, bacteria, viruses, and other contaminants, ensuring safe and healthy drinking water. The active copper and B12 alkaline technology enriches water with essential minerals, while the automatic shut-off and energy-saving mode provide convenience and efficiency. With a 12-liter storage capacity, extra wide water level indicator, and under-sink installation, this purifier is ideal for modern households seeking reliable and comprehensive water purification."
+
+---
+
+id: 110701
+name: AQUA ZEEP RO+UV+ALKALINE+TDS Controllor With No Water Input Sensor & Auto Filter Clean System Suitable for UPTO 2000PPM TDS (WHITE)
+price: 9999
+mrp: 18999
+brand: BON VIVANT
+img: [
+  "https://m.media-amazon.com/images/I/41XI0Qh+x0L._SX342_.jpg",
+]
+details: [
+  "AUTO FLUSHING - The purpose of the flush system is to help prevent scaling or fouling of the RO membrane(s) by providing a rapid rinse which washes away impurities and keeps the membrane clean.",
+  "TECHNOLOGY - Multiple purification by RO+UV process which removes even dissolved impurities such as chemicals, bacteria, viruses, and salts making water 100% pure and suitable for drinking.",
+  "UV Disinfection : Ultraviolet radiation disinfects the water from water borne disease causing bacteria, virus and protozoa, making it safe to drink without the need of handling potential dangerous chemicals. UV does not change the taste or odour of the water and consumes less power.",
+  "LPS - Many RO Systems are equipped with a low pressure cut out switch. This switch shuts the RO down in the event that pressure falls to low or no pressure at all. This keeps the pump from getting damaged.",
+  "Suitable for purification of brackish/tap water/ municipal water supply. Capacity: 10 liters, Country of Origin: India Fully automatic operation with auto-on and auto-off function, ensuring that you do not run out of pure water. "
+]
+specs: {
+  "Other Special Features of the Product":	"Automatic Shut-Off, Auto Clean",
+  "Container Type":	"Dispenser",
+  "Purification Method":	"Reverse Osmosis, Ultraviolet"
+}
+description: "Multiple purification by RO+UV process which removes even dissolved impurities such as chemicals, bacteria, viruses, and salts making water 100% pure and suitable for drinking. Suitable for purification of brackish/tap water/ municipal water supply. Capacity: 10 liters, Country of Origin: India Fully automatic operation with auto-on and auto-off function, ensuring that you do not run out of pure water. UV Disinfection : Ultraviolet radiation disinfects the water from water borne disease causing bacteria, virus and protozoa, making it safe to drink without the need of handling potential dangerous chemicals. UV does not change the taste or odour of the water and consumes less power."
+
+---
+
+id: 119901
+name: HydrARO Apple Mirage RO Apple Water Purifier with RO + UV + Copper + Alkaline Technology Gives Pure Mineral Water | 5 Stage Purification | 15 Liters Storage | 20 LPH Capacity (Black)
+price: 6999
+mrp: 19999
+brand:  Generic
+img: [
+  "https://m.media-amazon.com/images/I/51Uas1QAKdL._SY445_.jpg"
+]
+details: [
+  "Purifies 100% natural water",
+  "Suitable for all water sources (tanker, borewell, municipal)",
+  "3 power RO+ UV + Copper + Alkaline Technolgy Produces Pure mineral water.",
+  "Installation Type Wall Mounted, Countertop",
+  "It provides your kitchen elegant look"
+]
+specs: {
+  "Other Special Features of the Product":	"Built In TDS Meter",
+  "Container Type":	"Dispenser",
+  "Installation Type":	"Countertop",
+  "Purification Method":	"Reverse Osmosis, Ultraviolet",
+  "Power Source Type":	"Corded Electric",
+  "Maximum Flow Rate":	"21 Liters Per Hour",
+  "Supported Water TDS Level Maximum (PPM)": "500"
+
+}
+description: "HydrARO Apple Mirage RO 15-Liter Water Purifier for Home and Kitchen This fully automatic water purifier features a crystal-clear detachable 15-liter storage tank with smart UV LED disinfection. The transparent tank uses push-fit components for leak-proof operation. Advanced Filtration Technology: RO + UV + Copper + Zinc + Alkaline purification Eliminates viruses and bacteria UV e-boiling ensures each drop is as safe as water boiled for 20 minuteS The HydrARO Apple Mirage RO offers comprehensive water purification for your home, delivering clean, safe, and healthy drinking water with its multi-stage filtration process."
+
+---
+
+id: 119902
+name: Aqua Active Hot Normal Cold Water Purifier RO+UV+TDS+Mineralization+Alkaline -100GPD
+price: 13933
+mrp: 29999
+brand:  Aqua Active
+img: [
+  "https://m.media-amazon.com/images/I/51PHT09uGpL._SX385_.jpg",
+  "https://m.media-amazon.com/images/I/51VBQVYHOaL._SX385_.jpg",
+  "https://m.media-amazon.com/images/I/41uh-aBspYL.jpghttps://m.media-amazon.com/images/I/41uh-aBspYL.jpg",
+  "https://m.media-amazon.com/images/I/51Gn32NHP2L.jpg"
+]
+details: [
+  "Hot Normal Cold Water Purifier RO+UV+TDS+Mineralization+Alkaline -100GPD",
+  "In Aquaactive water purifier water passes through Pre-filter + Sediment filter + Silver Activated Post Carbon + UV Lamp + Alkaline to give you healthy drinking water.",
+  "UV is a proven Non-chemical, disinfectant technology to give you healthy water with 11 Watt UV Lamp. Suitable for water with low TDS.",
+  "UV purified hot water at two temperature choices between 45 °C to 80 °C.",
+  "Digital display for simple and intelligent display of information.",
+  "Glow effect guides you to your water purifier at night and makes your kitchen look good.Operating status indicator. Separate power switches for Hot n Cold water. Child Safety lock. Full Tank Indicator",
+  "6-Stage Filtration with 5 filters (Outer-Sediment Optional, Pre-Sediment, Carbon block Filter, Cuckoo’s Eco RO Filter and Natural plus Filter",
+  "Air Tight Stainless Steel tank protects entering from insects or dusts particles. Designed for smart homes and offices",
+  "Can be used for TDS (200-2000). Please use a TDS meter to find out the correct TDS of your water source before buying a water purifier",
+  "Includes: Water Purifier, Clarity Cartridge (installed outside the unit), Installation kit and User manual Technology: Advanced RO+MTDS purification.",
+]
+specs: {
+  "Other Special Features of the Produc":	"Built In TDS Meter",
+  "Container Type":	"Dispenser",
+  "Installation Type":	"Countertop",
+  "Purification Method":	"RO,UV,ALK,MIN",
+  "Power Source Type":	"Corded Electric",
+  "Maximum Flow Rate":	"12 Liters Per Minute",
+  "Upper Temperature Rating":	"81 Degrees Celsius"
+  }
+description: "Alkaline RO water purifier :- Alkaline filter cartridge maitains pH level to give you alkaline water which supports immune system , a healthy skin and body hydration. Cold drinking water :- Cold water directly available from RO machine. Hot boiling water :- No need to boil water for tea & coffee , 99 degree hot water available. Child lock for Hot water :- This machine has a feature to dispense hot water safely specially for small children. Inbuilt 11 liters water storage :- No need to store purified water, this machine has a inside 7 liters of normal storage, 1.2 liters of hot and 0.7 liters of cold water storage. Technical Specifications :- 1. Cooling power 60 Watt / hr , Heating 550 Watt / hr & RO 30 Watt / hr only. 2. Water Cooling Capicity 0.7 Ltr in Every 30 Minutes. 3. Water Heating Capacity 1 Ltr in 5 minutes. 4. LED Display Screen to Monitor Machine Status. 5. Dual mode table top / wall mounting. 6. Intelligent Auto Membrane Flushing once in every hour. Five Stage Standard Water filtration :- 1. Polipropilen 5 micron filter cartridge to remove physical impurities from raw water. 2. Granuals active carbon filter,it removes odor , smell and colour from raw water. 3. Carbon block filter it removes clorin and organic impurities from raw water. 4. Reverse Osmosis membrane removes desolve impurities from raw water. 5. Alkaline and mineral cartridge."
+
+---
+
+id: 
+name: 
+price: 
+mrp: 
+brand:  
+img: []
+details: []
+specs: {
+  
+}
+description: ""
+
+---
+
+id: 
+name: 
+price: 
+mrp: 
+brand:  
+img: []
+details: []
+specs: {
+  
+}
+description: ""
+
+---

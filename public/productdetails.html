@@ -91,18 +91,26 @@
   <!-- Product Section -->
   <section class="py-16 px-4 bg-gradient-to-br from-[#081e33] to-[#102f4d]">
    {{card}}
-  </section>
-  <section>
-    <div class="max-w-6xl mx-auto px-4 py-8">
-      <h3 class="text-2xl font-bold text-blue-100 mb-6">Product Description</h3>
-      <p class="text-blue-200 text-sm mb-4">The ShraddhaAqua RO Booster Pump is designed to enhance the water pressure
-        in your household RO system, ensuring efficient purification and consistent water flow. With a heavy-duty 24V
-        motor and a long-lasting copper coil, this pump is built for durability and performance.</p>
-      <p class="text-blue-200 text-sm">Whether you're replacing an old pump or upgrading your system, the ShraddhaAqua
-        RO Booster Pump is the perfect choice for reliable water purification.</p>
-    </div>
-  </section>
 
+<div id="form-container" class="max-w-xl mx-auto mt-10 p-6 bg-[#0f2a47] rounded-xl shadow-xl hidden transition-all duration-500">
+  <form id="form" method="POST" action="/buy" class="space-y-4">
+    <h2 class="text-xl font-semibold text-blue-200 mb-4">Complete Your Order</h2>
+    
+    <input required name="name" type="text" placeholder="Your Name" class="w-full p-3 rounded-lg bg-[#13294b] text-white placeholder-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
+    
+    <input required name="email" type="email" placeholder="Email Address" class="w-full p-3 rounded-lg bg-[#13294b] text-white placeholder-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
+    
+    <input required name="phone" type="tel" placeholder="+91XXXXXXXXXX" pattern="^\+?\d{10,15}$" class="w-full p-3 rounded-lg bg-[#13294b] text-white placeholder-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
+    
+    <textarea required name="address" rows="4" placeholder="Full Address" class="w-full p-3 rounded-lg bg-[#13294b] text-white placeholder-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400"></textarea>
+    
+    <input type="hidden" name="id" id="productIdInput">
+    
+    <button type="submit" class="w-full glow-btn py-3 px-6 rounded-lg font-semibold text-white">Submit & Continue</button>
+  </form>
+</div>
+    
+  </section>
   
   <!-- Footer -->
   <footer class="bg-gradient-to-tr from-[#020c1a] to-[#061a2f] text-center text-sm py-6 text-blue-300">
@@ -115,7 +123,23 @@
     </p>
   </footer>
   
+<script>
+  const buyNow = document.getElementById('buyNow');
+  const contact = document.getElementById('contact');
+  const formContainer = document.getElementById('form-container');
+  
+const productId = window.location.pathname.split('/').pop();
+document.getElementById('productIdInput').value = productId;
+alert(productId);
+  contact?.addEventListener('click', () => {
+    window.location.href = '/contact.html';
+  });
 
+  buyNow?.addEventListener('click', () => {
+    formContainer?.classList.remove('hidden');
+    formContainer?.scrollIntoView({ behavior: 'smooth' });
+  });
+</script>
 </body>
 
 </html>
