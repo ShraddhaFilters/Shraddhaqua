@@ -465,7 +465,7 @@ app.get('/payment-success', (req, res) => {
     'content-type': 'application/json'
   },
   body: JSON.stringify({
-    text: `# 🛒 New Order \n ================= \n ✅✅✅ \n New order recived for ${order}`,
+    text: `# 🛒 New Order \n ================= \n ✅✅✅ \n #New order recived for ${JSON.stringify(order)}`,
     parse_mode: 'Markdown',
     disable_web_page_preview: false,
     disable_notification: false,
