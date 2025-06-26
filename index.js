@@ -9,8 +9,8 @@ const PORT = process.env.PORT || 3000;
 const pendingOrders = new Map();
 
 const razorpay = new Razorpay({
-  key_id: "rzp_test_DI9DBN4NxU7t2m",
-  key_secret: "ypuldkqA6GTUY11JZgWEOxWx",
+  key_id: process.env.ID,
+  key_secret: process.env.SECRET,
 });
 
 
