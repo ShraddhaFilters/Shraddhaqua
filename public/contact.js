@@ -4,7 +4,7 @@ if (btn) {
   btn.addEventListener('click', async (e) => {
     e.preventDefault();
 
-    const name = document.querySelector('input[type="text"]').value;
+    const name = document.getElementById("name").value;
     const email = document.querySelector('input[type="email"]').value;
     const phone = document.querySelector('input[type="tel"]').value;
     const description = document.getElementById("msg").value;
