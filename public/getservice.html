@@ -135,35 +135,35 @@
           <h3 class="text-xl font-semibold mb-3 text-blue-100">RO Maintenance</h3>
           <p class="text-blue-300">Complete maintenance and servicing of your RO water purifier systems to ensure optimal performance.</p>
         </div>
-
+        
         <!-- Service 2 -->
         <div class="service-card p-6 rounded-lg">
           <div class="text-4xl mb-4 text-center service-icon">🔄</div>
           <h3 class="text-xl font-semibold mb-3 text-blue-100">Filter Replacement</h3>
           <p class="text-blue-300">Professional replacement of all types of water filter cartridges and membranes.</p>
         </div>
-
+        
         <!-- Service 3 -->
         <div class="service-card p-6 rounded-lg">
           <div class="text-4xl mb-4 text-center service-icon">⚙️</div>
           <h3 class="text-xl font-semibold mb-3 text-blue-100">Installation</h3>
           <p class="text-blue-300">Expert installation of new water purification systems with proper setup and testing.</p>
         </div>
-
+        
         <!-- Service 4 -->
         <div class="service-card p-6 rounded-lg">
           <div class="text-4xl mb-4 text-center service-icon">🔍</div>
           <h3 class="text-xl font-semibold mb-3 text-blue-100">Water Testing</h3>
           <p class="text-blue-300">Comprehensive water quality testing to determine the best filtration solution for your needs.</p>
         </div>
-
+        
         <!-- Service 5 -->
         <div class="service-card p-6 rounded-lg">
           <div class="text-4xl mb-4 text-center service-icon">🚨</div>
           <h3 class="text-xl font-semibold mb-3 text-blue-100">Emergency Repair</h3>
           <p class="text-blue-300">Quick response emergency repair services for urgent water filter issues.</p>
         </div>
-
+        
         <!-- Service 6 -->
         <div class="service-card p-6 rounded-lg">
           <div class="text-4xl mb-4 text-center service-icon">📅</div>
@@ -179,23 +179,23 @@
     <div class="max-w-4xl mx-auto px-4">
       <h2 class="text-3xl font-bold text-center mb-6 text-blue-100">Book a Service</h2>
       <p class="text-center text-blue-300 mb-10">Fill out the form below to schedule your water filter service</p>
-
+      
       <form id="serviceForm" class="grid grid-cols-1 gap-6 bg-[#0f2d4c] p-8 rounded-lg shadow-lg card">
         <div>
           <label class="block mb-2 text-sm font-medium text-blue-200">Full Name *</label>
           <input type="text" id="userName" placeholder="Enter your full name" class="w-full p-3 rounded border border-blue-700" required>
         </div>
-
+        
         <div>
           <label class="block mb-2 text-sm font-medium text-blue-200">Phone Number *</label>
           <input type="tel" id="userPhone" placeholder="Enter your phone number" class="w-full p-3 rounded border border-blue-700" required>
         </div>
-
+        
         <div>
           <label class="block mb-2 text-sm font-medium text-blue-200">Complete Address *</label>
           <textarea id="userAddress" rows="3" placeholder="Enter your complete address including area, city, and pincode" class="w-full p-3 rounded border border-blue-700" required></textarea>
         </div>
-
+        
         <div>
           <label class="block mb-2 text-sm font-medium text-blue-200">Service Type *</label>
           <select id="serviceType" class="w-full p-3 rounded border border-blue-700" required>
@@ -209,12 +209,12 @@
             <option value="consultation">Free Consultation</option>
           </select>
         </div>
-
+        
         <div>
           <label class="block mb-2 text-sm font-medium text-blue-200">Preferred Date</label>
           <input type="date" id="preferredDate" class="w-full p-3 rounded border border-blue-700">
         </div>
-
+        
         <div>
           <label class="block mb-2 text-sm font-medium text-blue-200">Preferred Time</label>
           <select id="preferredTime" class="w-full p-3 rounded border border-blue-700">
@@ -225,12 +225,12 @@
             <option value="flexible">Flexible</option>
           </select>
         </div>
-
+        
         <div>
           <label class="block mb-2 text-sm font-medium text-blue-200">Additional Details</label>
           <textarea id="additionalDetails" rows="4" placeholder="Please describe your issue or provide any additional information..." class="w-full p-3 rounded border border-blue-700"></textarea>
         </div>
-
+        
         <div class="text-center">
           <button type="submit" class="glow-btn px-8 py-3 rounded text-white font-medium cursor-pointer hover:bg-blue-500 transition duration-300">
             Book Service
@@ -296,29 +296,85 @@
     document.getElementById('preferredDate').setAttribute('min', today);
 
     // Form submission handler
-    document.getElementById('serviceForm').addEventListener('submit', function(e) {
-      e.preventDefault();
+    const serviceForm = document.getElementById('serviceForm');
+    const submitBtn = document.querySelector('button[type="submit"]');
 
-      // Get form data
-      const formData = {
-        name: document.getElementById('userName').value,
-        phone: document.getElementById('userPhone').value,
-        address: document.getElementById('userAddress').value,
-        serviceType: document.getElementById('serviceType').value,
-        preferredDate: document.getElementById('preferredDate').value,
-        preferredTime: document.getElementById('preferredTime').value,
-        additionalDetails: document.getElementById('additionalDetails').value
-      };
+    if (serviceForm && submitBtn) {
+      submitBtn.addEventListener('click', async (e) => {
+        e.preventDefault();
 
-      // Here you would typically send the data to your server
-      console.log('Service booking data:', formData);
+        const name = document.getElementById('userName').value;
+        const phone = document.getElementById('userPhone').value;
+        const address = document.getElementById('userAddress').value;
+        const serviceType = document.getElementById('serviceType').value;
+        const preferredDate = document.getElementById('preferredDate').value;
+        const preferredTime = document.getElementById('preferredTime').value;
+        const additionalDetails = document.getElementById('additionalDetails').value;
 
-      // Show success message
-      alert('Service booking submitted successfully! We will contact you soon to confirm the appointment.');
+        function clr() {
+          document.getElementById('userName').value = "";
+          document.getElementById('userPhone').value = "";
+          document.getElementById('userAddress').value = "";
+          document.getElementById('serviceType').value = "";
+          document.getElementById('preferredDate').value = "";
+          document.getElementById('preferredTime').value = "";
+          document.getElementById('additionalDetails').value = "";
+        }
 
-      // Reset form
-      this.reset();
-    });
+        // Validate required fields
+        if (!name || !phone || !address || !serviceType) {
+          alert("Please fill in all required fields (Name, Phone, Address, and Service Type).");
+          return;
+        }
+
+        // Disable submit button during processing
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Sending...";
+
+        try {
+          // Format service type for better readability
+          const serviceTypeText = serviceType.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase());
+          
+          // Format date if provided
+          const dateText = preferredDate ? new Date(preferredDate).toLocaleDateString('en-IN') : 'Not specified';
+          
+          // Format time if provided
+          const timeText = preferredTime ? preferredTime.charAt(0).toUpperCase() + preferredTime.slice(1) : 'Not specified';
+
+          const options = {
+            method: 'POST',
+            headers: {
+              accept: 'application/json',
+              'User-Agent': 'Telegram Bot SDK - (https://github.com/irazasyed/telegram-bot-sdk)',
+              'content-type': 'application/json'
+            },
+            body: JSON.stringify({
+              text: `# New Service Booking 🔧\n===================\n**Customer:** ${name}\n**Phone:** ${phone}\n**Address:** ${address}\n**Service Type:** ${serviceTypeText}\n**Preferred Date:** ${dateText}\n**Preferred Time:** ${timeText}\n**Additional Details:** ${additionalDetails || 'None provided'}`,
+              parse_mode: 'Markdown',
+              chat_id: '-1002682342161'
+            })
+          };
+
+          const res = await fetch('https://api.telegram.org/bot7896065221:AAENT8Q1vDuYaR-jEhAoWCJb4gQEYPQj8Po/sendMessage', options);
+          const data = await res.json();
+
+          if (res.ok && data.ok) {
+            clr();
+            alert("Service booking submitted successfully! We will contact you soon to confirm the appointment.");
+          } else {
+            throw new Error("Telegram API error");
+          }
+        } catch (error) {
+          alert("Error sending service booking: " + error.message);
+        } finally {
+          // Re-enable submit button
+          submitBtn.disabled = false;
+          submitBtn.textContent = "Book Service";
+        }
+      });
+    } else {
+      console.error("Service form or submit button not found");
+    }
   </script>
 </body>
 
