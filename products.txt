@@ -1,6 +1,6 @@
 id: 110301
 name: AQUA D PURE 4 in 1 Copper RO Water Purifier
-price: 4947
+price: 7500
 mrp: 24999
 brand: AQUA D PURE
 img: ["https://static.wixstatic.com/media/55eb38_55e604945b5c4470be98dce0365d4389~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_55e604945b5c4470be98dce0365d4389~mv2.jpg","https://static.wixstatic.com/media/55eb38_6b876634c37c4503bf3a584bab6d2c8f~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_6b876634c37c4503bf3a584bab6d2c8f~mv2.jpg","https://static.wixstatic.com/media/55eb38_c962e62cf0f54916bfbd915ca4f63962~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_c962e62cf0f54916bfbd915ca4f63962~mv2.jpg","https://static.wixstatic.com/media/55eb38_905782ee9e7a461f99715678e30f95c8~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_905782ee9e7a461f99715678e30f95c8~mv2.jpg","https://static.wixstatic.com/media/55eb38_9a7f8ec0dc0746538236a756583a1458~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_9a7f8ec0dc0746538236a756583a1458~mv2.jpg","https://static.wixstatic.com/media/55eb38_400275b53ff84ebab0ff78131b7a317c~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_400275b53ff84ebab0ff78131b7a317c~mv2.jpg"]
@@ -10,7 +10,7 @@ details: "The AQUA D PURE 4 in 1 Copper RO Water Purifier is designed for modern
 ---
 id: 110302
 name: AQUA D PURE 4 in 1 Alkline RO Water Purifier
-price: 4998 
+price: 8500 
 mrp: 19999
 brand: AQUA D PURE
 img: ["https://static.wixstatic.com/media/55eb38_644a2d9bd465492da6d0a81307ffec86~mv2.jpg/v1/fill/w_507,h_507,al_c,q_85,usm_0.66_1.00_0.01/55eb38_644a2d9bd465492da6d0a81307ffec86~mv2.jpg","https://static.wixstatic.com/media/55eb38_65fc5aa7871c4158a689666021697802~mv2.jpg/v1/fill/w_507,h_507,al_c,q_85,usm_0.66_1.00_0.01/55eb38_65fc5aa7871c4158a689666021697802~mv2.jpg","https://static.wixstatic.com/media/55eb38_ef93842229cb47e19a38c03b631a9c56~mv2.jpg/v1/fill/w_507,h_507,al_c,q_85,usm_0.66_1.00_0.01/55eb38_ef93842229cb47e19a38c03b631a9c56~mv2.jpg","https://static.wixstatic.com/media/55eb38_0286755722044c7f9e716ec3581b6534~mv2.jpg/v1/fill/w_507,h_507,al_c,q_85,usm_0.66_1.00_0.01/55eb38_0286755722044c7f9e716ec3581b6534~mv2.jpg","https://static.wixstatic.com/media/55eb38_0ca2089702834f77806fc726d94ba36b~mv2.jpg/v1/fill/w_507,h_507,al_c,q_85,usm_0.66_1.00_0.01/55eb38_0ca2089702834f77806fc726d94ba36b~mv2.jpg"]
@@ -20,7 +20,7 @@ details: "The AQUA D PURE 4 in 1 Alkaline RO Water Purifier delivers pure, healt
 ---
 id: 110303
 name: AQUA D PURE 4 in 1 Bio Copper Zinc Alkaline RO Water Purifier
-price: 4998
+price: 9500
 mrp: 24999
 brand: AQUA D PURE
 img: ["https://static.wixstatic.com/media/55eb38_99e6382dc6754492b292412b200804cb~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_99e6382dc6754492b292412b200804cb~mv2.jpg","https://static.wixstatic.com/media/55eb38_756aac0ada2c42d485feaad11a0a080c~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_756aac0ada2c42d485feaad11a0a080c~mv2.jpg","https://static.wixstatic.com/media/55eb38_ca901eed7488468ab352450b649e4f48~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_ca901eed7488468ab352450b649e4f48~mv2.jpg","https://static.wixstatic.com/media/55eb38_28bdb514923a41b1a68fa479247f1e69~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_28bdb514923a41b1a68fa479247f1e69~mv2.jpg","https://static.wixstatic.com/media/55eb38_e2e46b54d8cf470b8daa71f957009153~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_e2e46b54d8cf470b8daa71f957009153~mv2.jpg","https://static.wixstatic.com/media/55eb38_be93cf5bc16d486a81ebbee31f560a7a~mv2.jpg/v1/fill/w_1119,h_1119,al_c,q_85,usm_0.66_1.00_0.01/55eb38_be93cf5bc16d486a81ebbee31f560a7a~mv2.jpg"]
@@ -30,7 +30,7 @@ details: "The AQUA D PURE 4 in 1 Bio Copper Zinc Alkaline RO Water Purifier offe
 ---
 id: 1109011
 name: Puresa Modesty High-Performance Water Purifier
-price: 14999 
+price: 12500 
 mrp: 18999
 brand: PURESA
 img: ["https://m.media-amazon.com/images/I/51d2bNoX0DL._SX342_.jpg"]
@@ -40,7 +40,7 @@ details: "The Puresa High-Performance Water Purifier is the ultimate solution fo
 ---
 id: 110901
 name: Puresa Modesty High-Performance Water Purifier
-price: 14999 
+price: 12500 
 mrp: 18999
 brand: PURESA
 img: ["https://m.media-amazon.com/images/I/51LcXKgVweL._SL1094_.jpg"]
@@ -50,7 +50,7 @@ details: "The Puresa High-Performance Water Purifier is the ultimate solution fo
 ---
 id: 110902
 name: Puresa Modesty High-Performance Water Purifier
-price: 14999 
+price: 12500 
 mrp: 18999
 brand: PURESA
 img: ["https://m.media-amazon.com/images/I/51q3ooAC45L.jpg"]
@@ -61,7 +61,7 @@ details: "The Puresa High-Performance Water Purifier is the ultimate solution fo
 id: 111001
 name: Aqua Moor Digital Display Water Purifier, Copper With Zinc Alkaline Technology, Black Copper
 price: 5899
-mrp: 15900
+mrp: 10500
 brand: Miracle Aqua
 img: ["https://m.media-amazon.com/images/I/51PUPy8AmTL._SY445_.jpg","https://m.media-amazon.com/images/I/61UyoTIILML._SX342_.jpg","https://m.media-amazon.com/images/I/61WpH7e+4qL._SY445_.jpg","https://m.media-amazon.com/images/I/61t0wBxkvGL._SX342_.jpg"]
 description: ["DIGITAL DISPLAY: Features a smart digital display panel for easy monitoring of water purification status and system functions","FILTRATION SYSTEM: Advanced 3-stage copper alkaline water purification technology for comprehensive water treatment","DESIGN: Sleek black acrylic construction with elegant copper accents, featuring a convenient water dispensing tap","INSTALLATION: Wall-mountable design with modern aesthetic, perfect for contemporary kitchen spaces","STORAGE CAPACITY: Dual-chamber design with separate filtered water storage compartment for continuous water supply"]
@@ -70,7 +70,7 @@ details: "Introducing the Aqua Moor water purifier, a sophisticated blend of tec
 ---
 id: 110601
 name: Merlin Matrix Black Digital Zinc
-price: 20770 
+price: 14500 
 mrp: 28999
 brand: MERLIN
 img: ["https://m.media-amazon.com/images/I/518FaNuAM3L._SX342_.jpg"]
@@ -80,7 +80,7 @@ details: "Product Quality We assure our potential customers about the quality of
 ---
 id: 111101
 name: Mirage Zinc Copper Alkaline RO Water Purifier
-price: 4799
+price: 10500
 mrp: 14999
 brand: CevPure  
 img: ["https://m.media-amazon.com/images/I/71OcPeiVL6L._SY445_.jpg","https://m.media-amazon.com/images/I/71Kb+ApMTDL._SX385_.jpg","https://m.media-amazon.com/images/I/71rX2DkT04L._SY445_.jpg","https://m.media-amazon.com/images/I/71Zp90dzY-L._SY445_.jpg"]
@@ -90,7 +90,7 @@ details: ["CevPure is a leading water filter manufacturing company dedicated to 
 ---
 id: 110801
 name: Supreme Aqua Brio Water Purifier
-price: 11000
+price: 9500
 mrp: 23999
 brand: Supreme Aqua
 img: ["https://tiimg.tistatic.com/fp/1/009/002/supreme-aqua-brio-black-ro-water-purifier-938.jpg"]
@@ -100,7 +100,7 @@ details: "The Supreme Aqua Brio Water Purifier is designed for efficient purific
 ---
 id: 110501
 name: Hi Tech AQUA NEEO COPER 12 L Gravity Based + UF Water Purifier  (Silver, COPER)
-price: 4449
+price: 7500
 mrp: 9900
 brand:  AQUA NEEO
 img: ["https://rukminim2.flixcart.com/image/832/832/xif0q/water-purifier/c/4/u/aqua-neeo-coper-hi-tech-original-imagtnm2hx38hazh.jpeg?q=70&crop=false"]
@@ -110,7 +110,7 @@ details: "Membranes Pre Filter or any plastic parts is not cover in warranty Wat
 ---
 id: 110502
 name: Arroser Pure Aqua Neeo Ro Water Purifier Active Copper with B12 Alkaline + Ro + Uv + Uf + Mtds Controller Minerals Water Black 12 Litter Made In India
-price: 5249
+price: 9500
 mrp: 24999
 brand: AQUA NEEO  
 img: ["https://m.media-amazon.com/images/I/61d2bdaiMkL._SY445_.jpg","https://m.media-amazon.com/images/I/61X3xO1MgoL._SX342_.jpg","https://m.media-amazon.com/images/I/61AJCrPA4eL._SL1149_.jpg"]
@@ -120,7 +120,7 @@ details: "The Arroser Pure Aqua Neeo RO Water Purifier is engineered for advance
 ---
 id: 110701
 name: AQUA ZEEP RO+UV+ALKALINE+TDS Controllor With No Water Input Sensor & Auto Filter Clean System Suitable for UPTO 2000PPM TDS (WHITE)
-price: 9999
+price: 8500
 mrp: 18999
 brand: BON VIVANT
 img: ["https://m.media-amazon.com/images/I/41XI0Qh+x0L._SX342_.jpg"]
@@ -130,7 +130,7 @@ details: "Multiple purification by RO+UV process which removes even dissolved im
 ---
 id: 119901
 name: HydrARO Apple Mirage RO Apple Water Purifier with RO + UV + Copper + Alkaline Technology Gives Pure Mineral Water | 5 Stage Purification | 15 Liters Storage | 20 LPH Capacity (Black)
-price: 6999
+price: 11500
 mrp: 19999
 brand:  Generic
 img: ["https://m.media-amazon.com/images/I/51Uas1QAKdL._SY445_.jpg"]
@@ -140,7 +140,7 @@ details: "HydrARO Apple Mirage RO 15-Liter Water Purifier for Home and Kitchen T
 ---
 id: 119902
 name: Aqua Active Hot Normal Cold Water Purifier RO+UV+TDS+Mineralization+Alkaline -100GPD
-price: 13933
+price: 17500
 mrp: 29999
 brand:  Aqua Active
 img: ["https://m.media-amazon.com/images/I/51PHT09uGpL._SX385_.jpg","https://m.media-amazon.com/images/I/51VBQVYHOaL._SX385_.jpg","https://m.media-amazon.com/images/I/41uh-aBspYL.jpghttps://m.media-amazon.com/images/I/41uh-aBspYL.jpg","https://m.media-amazon.com/images/I/51Gn32NHP2L.jpg"]
