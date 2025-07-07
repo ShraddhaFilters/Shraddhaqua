@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | ShraddhaAqua</title>
+  <meta name="description" content="Book professional water filter services with ShraddhaAqua. RO maintenance, filter replacement, and installation services.">
+  <meta name="keywords" content="ShraddhaAqua, services, water filter service, RO maintenance, filter replacement, installation">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .glow-btn {
+      background-image: linear-gradient(135deg, #3b82f6, #60a5fa);
+      transition: all 0.3s ease;
+    }
+
+    .glow-btn:hover {
+      box-shadow: 0 0 20px #3b82f6;
+      transform: translateY(-2px);
+    }
+
+    .card {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4);
+    }
+
+    input, textarea, select {
+      background-color: #0f2d4c;
+      color: #d1e9ff;
+    }
+
+    input::placeholder, textarea::placeholder {
+      color: #93c5fd;
+    }
+
+    input:focus, textarea:focus, select:focus {
+      outline: none;
+      border: 1px solid #3b82f6;
+    }
+
+    .service-card {
+      background: linear-gradient(135deg, #0f2d4c, #1a3a5c);
+      border: 1px solid #2563eb;
+      transition: all 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(37, 99, 235, 0.3);
+    }
+
+    .service-icon {
+      background: linear-gradient(135deg, #3b82f6, #60a5fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-tr from-[#050d1f] to-[#0b2541] text-white">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-[#061830] to-[#0c2a50] shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-400">ShraddhaAqua</h1>
+      <!-- Mobile menu button -->
+          <button id="menu-btn" class="md:hidden ml-4 text-blue-100 hover:text-blue-400 focus:outline-none" aria-label="Open Menu">
+            <svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+          </button>
+        </div>
+        <div class="flex-1 flex justify-center md:justify-center">
+          <form action="/search" method="GET" class="w-full max-w-xs">
+            <div class="relative">
+              <input type="text"  name="query" placeholder="Search filters, parts..." class="w-full pl-4 pr-10 py-2 rounded-full bg-[#13294b] text-blue-100 placeholder-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400 transition" />
+              <button type="submit" class="absolute right-2 top-1/2 -translate-y-1/2 text-white hover:text-blue-400">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" fill="none"/>
+                  <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+        <nav id="main-nav" class="space-y-2 md:space-y-0 md:space-x-6 text-sm font-medium text-blue-100 flex-col md:flex-row flex md:items-center md:static absolute left-0 right-0 top-full bg-[#0c2a50] md:bg-transparent px-4 md:px-0 py-4 md:py-0 transition-all duration-200 ease-in-out z-40 hidden md:flex">
+          <a href="/" class="hover:text-blue-400 block md:inline">Home</a>
+          <a href="/products" class="hover:text-blue-400 block md:inline">Filters</a>
+          <a href="parts" class="hover:text-blue-400 block md:inline">Parts</a>
+          <a href="services.html" class="hover:text-blue-400 block md:inline">Service</a>
+          <a href="contact.html" class="hover:text-blue-400 block md:inline">Contact</a>
+        </nav>
+      </div>
+      <script>
+        // Simple mobile menu toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const nav = document.getElementById('main-nav');
+        menuBtn?.addEventListener('click', () => {
+          nav.classList.toggle('hidden');
+        });
+        // Optional: Hide menu on nav link click (mobile)
+        nav?.querySelectorAll('a').forEach(link => {
+          link.addEventListener('click', () => {
+            if (window.innerWidth < 768) nav.classList.add('hidden');
+          });
+        });
+      </script>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="py-16 bg-gradient-to-br from-[#0c1f35] via-[#0e2e4c] to-[#123a5c]">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6 text-blue-100">Our Services</h1>
+      <p class="text-lg text-blue-300 mb-8">Professional water filter services to keep your water clean and safe</p>
+    </div>
+  </section>
+
+  <!-- Services Overview -->
+  <section class="py-16 bg-gradient-to-r from-[#0b1e34] to-[#123456]">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Service 1 -->
+        <div class="service-card p-6 rounded-lg">
+          <div class="text-4xl mb-4 text-center service-icon">🔧</div>
+          <h3 class="text-xl font-semibold mb-3 text-blue-100">RO Maintenance</h3>
+          <p class="text-blue-300">Complete maintenance and servicing of your RO water purifier systems to ensure optimal performance.</p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card p-6 rounded-lg">
+          <div class="text-4xl mb-4 text-center service-icon">🔄</div>
+          <h3 class="text-xl font-semibold mb-3 text-blue-100">Filter Replacement</h3>
+          <p class="text-blue-300">Professional replacement of all types of water filter cartridges and membranes.</p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card p-6 rounded-lg">
+          <div class="text-4xl mb-4 text-center service-icon">⚙️</div>
+          <h3 class="text-xl font-semibold mb-3 text-blue-100">Installation</h3>
+          <p class="text-blue-300">Expert installation of new water purification systems with proper setup and testing.</p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card p-6 rounded-lg">
+          <div class="text-4xl mb-4 text-center service-icon">🔍</div>
+          <h3 class="text-xl font-semibold mb-3 text-blue-100">Water Testing</h3>
+          <p class="text-blue-300">Comprehensive water quality testing to determine the best filtration solution for your needs.</p>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card p-6 rounded-lg">
+          <div class="text-4xl mb-4 text-center service-icon">🚨</div>
+          <h3 class="text-xl font-semibold mb-3 text-blue-100">Emergency Repair</h3>
+          <p class="text-blue-300">Quick response emergency repair services for urgent water filter issues.</p>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card p-6 rounded-lg">
+          <div class="text-4xl mb-4 text-center service-icon">📅</div>
+          <h3 class="text-xl font-semibold mb-3 text-blue-100">AMC Services</h3>
+          <p class="text-blue-300">Annual maintenance contracts for regular servicing and peace of mind.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Booking Form -->
+  <section id="book-service" class="py-20 bg-gradient-to-br from-[#0c1f35] via-[#0e2e4c] to-[#123a5c]">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-6 text-blue-100">Book a Service</h2>
+      <p class="text-center text-blue-300 mb-10">Fill out the form below to schedule your water filter service</p>
+
+      <form id="serviceForm" class="grid grid-cols-1 gap-6 bg-[#0f2d4c] p-8 rounded-lg shadow-lg card">
+        <div>
+          <label class="block mb-2 text-sm font-medium text-blue-200">Full Name *</label>
+          <input type="text" id="userName" placeholder="Enter your full name" class="w-full p-3 rounded border border-blue-700" required>
+        </div>
+
+        <div>
+          <label class="block mb-2 text-sm font-medium text-blue-200">Phone Number *</label>
+          <input type="tel" id="userPhone" placeholder="Enter your phone number" class="w-full p-3 rounded border border-blue-700" required>
+        </div>
+
+        <div>
+          <label class="block mb-2 text-sm font-medium text-blue-200">Complete Address *</label>
+          <textarea id="userAddress" rows="3" placeholder="Enter your complete address including area, city, and pincode" class="w-full p-3 rounded border border-blue-700" required></textarea>
+        </div>
+
+        <div>
+          <label class="block mb-2 text-sm font-medium text-blue-200">Service Type *</label>
+          <select id="serviceType" class="w-full p-3 rounded border border-blue-700" required>
+            <option value="">Select a service</option>
+            <option value="ro-maintenance">RO Maintenance & Servicing</option>
+            <option value="filter-replacement">Filter Replacement</option>
+            <option value="new-installation">New Installation</option>
+            <option value="water-testing">Water Quality Testing</option>
+            <option value="emergency-repair">Emergency Repair</option>
+            <option value="amc-service">AMC Service</option>
+            <option value="consultation">Free Consultation</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block mb-2 text-sm font-medium text-blue-200">Preferred Date</label>
+          <input type="date" id="preferredDate" class="w-full p-3 rounded border border-blue-700">
+        </div>
+
+        <div>
+          <label class="block mb-2 text-sm font-medium text-blue-200">Preferred Time</label>
+          <select id="preferredTime" class="w-full p-3 rounded border border-blue-700">
+            <option value="">Select preferred time</option>
+            <option value="morning">Morning (9 AM - 12 PM)</option>
+            <option value="afternoon">Afternoon (12 PM - 4 PM)</option>
+            <option value="evening">Evening (4 PM - 7 PM)</option>
+            <option value="flexible">Flexible</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block mb-2 text-sm font-medium text-blue-200">Additional Details</label>
+          <textarea id="additionalDetails" rows="4" placeholder="Please describe your issue or provide any additional information..." class="w-full p-3 rounded border border-blue-700"></textarea>
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="glow-btn px-8 py-3 rounded text-white font-medium cursor-pointer hover:bg-blue-500 transition duration-300">
+            Book Service
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="py-16 bg-gradient-to-r from-[#0b1e34] to-[#123456]">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-blue-100">Why Choose ShraddhaAqua?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="text-4xl mb-4">⚡</div>
+          <h3 class="text-xl font-semibold mb-2 text-blue-100">Quick Service</h3>
+          <p class="text-blue-300">Fast response time and efficient service completion</p>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl mb-4">👨‍🔧</div>
+          <h3 class="text-xl font-semibold mb-2 text-blue-100">Expert Technicians</h3>
+          <p class="text-blue-300">Skilled and certified water filter specialists</p>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl mb-4">💯</div>
+          <h3 class="text-xl font-semibold mb-2 text-blue-100">Quality Guaranteed</h3>
+          <p class="text-blue-300">100% satisfaction guarantee on all services</p>
+        </div>
+        <div class="text-center">
+          <div class="text-4xl mb-4">💰</div>
+          <h3 class="text-xl font-semibold mb-2 text-blue-100">Affordable Pricing</h3>
+          <p class="text-blue-300">Competitive rates with transparent pricing</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Info Section -->
+  <section class="py-10 bg-gradient-to-r from-[#0b1e34] to-[#123456] text-center text-blue-200">
+    <div class="max-w-4xl mx-auto px-4 space-y-6">
+      <h3 class="text-2xl font-bold text-blue-100 mb-6">Get in Touch</h3>
+      <p><strong>Email:</strong><a href="mailto:shraddhafilters@gmail.com" class="text-blue-400 hover:text-blue-300"> shraddhafilters@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+919850753278" class="text-blue-400 hover:text-blue-300">+91-98507-53278</a></p>
+      <p><strong>Location:</strong> Shahada, Maharashtra, India</p>
+      <p class="text-blue-300 mt-4">Available 24/7 for emergency services</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-tr from-[#020c1a] to-[#061a2f] text-center text-sm py-6 text-blue-300">
+    <p>&copy; 2025 ShraddhaAqua. All rights reserved.</p>
+    <p>Follow us:
+      <a href="#" class="underline hover:text-white" target="_blank">Facebook</a> |
+      <a href="https://www.instagram.com/shraddhaqua?igsh=bmIzYTZqb2lmb3A5" class="underline hover:text-white" target="_blank">Instagram</a> |
+      <a href="https://whatsapp.com/channel/0029Vb6AHIf8V0tkhZzXkq0f" class="underline hover:text-white" target="_blank">WhatsApp</a>
+    </p>
+  </footer>
+
+  <script>
+    // Set minimum date to today
+    const today = new Date().toISOString().split('T')[0];
+    document.getElementById('preferredDate').setAttribute('min', today);
+
+    // Form submission handler
+    document.getElementById('serviceForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      // Get form data
+      const formData = {
+        name: document.getElementById('userName').value,
+        phone: document.getElementById('userPhone').value,
+        address: document.getElementById('userAddress').value,
+        serviceType: document.getElementById('serviceType').value,
+        preferredDate: document.getElementById('preferredDate').value,
+        preferredTime: document.getElementById('preferredTime').value,
+        additionalDetails: document.getElementById('additionalDetails').value
+      };
+
+      // Here you would typically send the data to your server
+      console.log('Service booking data:', formData);
+
+      // Show success message
+      alert('Service booking submitted successfully! We will contact you soon to confirm the appointment.');
+
+      // Reset form
+      this.reset();
+    });
+  </script>
+</body>
+
+</html>
