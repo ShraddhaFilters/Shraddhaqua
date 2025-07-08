@@ -14,7 +14,7 @@ const razorpay = new Razorpay({
 });
 
 
-app.get("/ping", ()=>{
+app.get("/ping", (req,res) => {
   res.send("pong");
 })
 
