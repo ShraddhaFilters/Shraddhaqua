@@ -29,7 +29,7 @@ app.get("/parts", (req,res) => {
   res.sendFile(path.join(__dirname, "public/coming.html"));
 })
 app.get("/parts.html", (req,res) => {
-  res.sendFile(path.join(__dirname, "public/coming.html"));
+  res.sendFile(path.join(__dirname, "public/parts.html"));
 })
 
 // Serve static files from "public" directory
