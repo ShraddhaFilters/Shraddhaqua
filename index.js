@@ -26,7 +26,7 @@ app.get("/products.html", (req,res) => {
   res.redirect(301,"/products");
 })
 app.get("/parts", (req,res) => {
-  res.sendFile(path.join(__dirname, "public/coming.html"));
+  res.sendFile(path.join(__dirname, "public/parts.html"));
 })
 app.get("/parts.html", (req,res) => {
   res.sendFile(path.join(__dirname, "public/parts.html"));
