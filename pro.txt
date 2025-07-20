@@ -1,20 +1,60 @@
-id: 1023
-name: RO Booster Pump
-price: 849
-mrp: 1099
-brand: ShraddhaAqua
-img: ["https://via.placeholder.com/400x400?text=RO+Pump", "https://via.placeholder.com/80", "https://via.placeholder.com/80"]
-description: [
-  "Heavy-duty 24V pump for household RO systems",
-  "Consistent water pressure for better purification",
-  "Long-lasting copper motor coil",
-  "6-month replacement warranty"
-]
-specs: {
-  "Voltage": "24V DC",
-  "Material": "Stainless Steel + Plastic",
-  "Weight": "750g",
-  "Warranty": "6 Months"
-}
-details: "The ShraddhaAqua RO Booster Pump is designed to enhance the water pressure in your household RO system, ensuring efficient purification and consistent water flow. With a heavy-duty 24V motor and a long-lasting copper coil, this pump is built for durability and performance.|Whether you're replacing an old pump or upgrading your system, the ShraddhaAqua RO Booster Pump is the perfect choice for reliable water purification."
+id: 1111
+name: PP Filter 10" | Spun Filter 10" | Spun Candal 10" for All Types RO Water Purifiers (Net Quantity- 1 Piece)
+price: 100
+mrp: 999
+brand: Generic
+img: ["https://m.media-amazon.com/images/I/51A8xaS5+bL._SY879_.jpg","https://m.media-amazon.com/images/I/61jyJyWCw6L._SX425_.jpg","https://m.media-amazon.com/images/I/51a5JI94vhL._SX425_.jpg","https://m.media-amazon.com/images/I/51g321HCqpL._SX425_.jpg","https://m.media-amazon.com/images/I/7199CLMcBdL._SX425_.jpg","https://m.media-amazon.com/images/I/71tX9+jXWqL._SX425_.jpg","https://m.media-amazon.com/images/I/31Bg6GRcyWL.jpg","https://m.media-amazon.com/images/I/61QA4gokGuL._SL1280_.jpg"]
+details: ["Premium Water Filtration: Ensures crystal-clear water by effectively removing sediments, dirt, rust, and other impurities.","10-Inch Polypropylene Filter: Designed for optimal filtration performance in both residential and commercial settings.","Easy Installation: Simple setup process for hassle-free integration into your water filtration system.","Low Maintenance: Requires minimal upkeep, saving you time and effort on filter replacement and cleaning.","Robust Construction: Built to last with high-quality polypropylene material, ensuring durability and longevity.","Advanced Filtration Technology: Captures even the finest particles, delivering consistently high water quality.","Versatile Application: Ideal for improving drinking water quality, protecting appliances, and optimizing industrial processes.","Enhanced Taste and Odor: Removes impurities for water that not only looks clean but also tastes refreshing.","Reliable Performance: Trustworthy filtration solution for consistent results and peace of mind.","Cost-Effective Solution: Provides excellent value with long-lasting performance and minimal maintenance requirements."]
+specs: {"Material":	"Polypropylene (PP)", "Product Dimensions": "6D x 6W x 25H Centimeters", "External Testing Certification": "NSF", "Brand": "Generic", "Net Quantity": "1.00 count"}
+description: "Introducing the PP Filter 10\" - your ultimate solution for crystal-clear water filtration! Crafted with precision and efficiency in mind, this 10-inch polypropylene filter is engineered to deliver unparalleled purity to your water supply. Whether you're in a residential or commercial setting, the PP Filter 10\" ensures superior removal of sediments, dirt, rust, and other impurities, leaving your water refreshingly clean and safe for consumption. Designed for easy installation and maintenance, this filter boasts a robust construction that guarantees long-lasting performance. Its high-quality polypropylene material provides exceptional durability, ensuring that it can withstand the rigors of everyday use without compromising on efficiency. Equipped with advanced filtration technology, the PP Filter 10\" effectively captures even the finest particles, ensuring a consistently high level of water quality. Say goodbye to cloudy water and unpleasant odors - with the PP Filter 10\", you can enjoy water that's not just clean, but also tastes great! Whether you're enhancing the quality of your drinking water, safeguarding your appliances from damage, or ensuring the optimal performance of your industrial processes, trust the PP Filter 10\" to deliver unmatched results every time. Upgrade to the PP Filter 10\" today and experience the difference it makes in your water filtration system!"
+---
+id: 1112
+name: RO Membrane Filter for Water Purifier 100 GPD Works Up to 2500 TDS High Flow - Compatible with All RO Purifiers - Pack of 1
+price: 185
+mrp: 1999
+brand: Generic
+img: ["https://m.media-amazon.com/images/I/21XWHY8PJiL.jpg"]
+details: ["✅ High Filtration Capacity – Delivers up to 100 gallons per day (GPD), ideal for medium to high usage households.","✅ 92% Salt Rejection – Efficiently removes dissolved salts, TDS, and impurities for healthy drinking water.","✅ Universal Compatibility – Suitable for all major brands and models of domestic RO water purifiers.","✅ Durable & Long-Lasting – Designed for extended lifespan with high-performance filtration.","✅ Premium Build Quality – Made from high-grade material with precision manufacturing for consistent output.","✅ Easy Installation – Plug-and-play design allows for quick membrane replacement without professional help."]
+specs: {"Material": "food grade","Product Dimensions": "10D x 8W x 15H Centimeters","Item Weight": "200 Grams"}
+description: "Protect your home, health, and appliances by filtering your water. The Necotech Water Reverse Osmosis Membrane removes major contaminants from your water and provides clean water all home uses. Start drinking healthy and stop drinking contaminants with your own home Reverse Osmosis Water Purification. Improve the taste of your cooking, coffee, ice, and drinks. Experience true Reverse Osmosis purification. Your filter life may be different depending on your water quality, temperature, and incoming pressure. The membrane focuses on the most difficult to remove contaminants found in water."
+---
+id: 1113
+name: Solenoid Valve(SV) for All Type of Water Purifier
+price: 350
+mrp: 350
+brand: OZEAN
+img: ["https://m.media-amazon.com/images/I/61OR2aLEETL._SX425_.jpg"]
+details: ["24 V DC, 0-120 PSI, 2.5 MM","Suitable for all kinds of ro/uv water purifiers","Cooper material"]
+specs: {"Inlet Connection Type":	"Compression","Outlet Connection Type":	"	Compression","Maximum Pressure":	"1.2E+2 Pound per Square Inch","Valve Type":	"solenoid"}
+description: "Solenoid Valve (SV) for All Types of Water Purifiers - Ensure Optimal Performance and Efficiency in Your Water Filtration System! This high-quality solenoid valve is designed to work seamlessly with all types of water purifiers, providing reliable control over water flow and pressure. Its durable construction ensures long-lasting performance, while its easy installation process makes it a perfect fit for both residential and commercial applications. Upgrade your water purification system with this essential component and enjoy clean, safe, and great-tasting water every day!"
+---
+id: 1114
+name: 100 GPD RO Booster pump Suitable For All Brand RO System
+price: 1850
+mrp: 1999
+brand: Aqua Ultra
+img: ["https://aquaultra.in/wp-content/uploads/2016/07/Aqua-Ultra-100-GPD-600x375.jpeg","https://aquaultra.in/wp-content/uploads/2016/07/aqua-ultra-2-600x374.png","https://aquaultra.in/wp-content/uploads/2016/07/aqua-ultra-3-600x374.png","https://aquaultra.in/wp-content/uploads/2016/07/10-600x600.png"]
+details: ["Stable Water Pressure – Enhances filtration efficiency for better water quality.","Improves RO Membrane Lifespan – Reduces stress on the membrane, ensuring long-term performance.","Fast Purification – Increases water production speed, providing quick access to purified water.","Low Noise & Energy Efficient – Operates quietly while consuming minimal electricity.","Durable Build – Designed with high-quality materials for long-lasting use."]
+specs: {"Capacity": "100 GPD","Nominal Flow Rate": "1.00 LPM To 1.5 LPM","Max.Pump Output": "100 To 140 PSI","Max. Pump Inlet Pressure": "20 PSI To 60 PSI","AMP": "0.22 To 1.10 A","Volts": "24 VDC"}
+description: "The Aqua Ultra 100 GPD RO Booster Pump is designed to enhance water pressure in all branded and assembled RO systems. It ensures efficient filtration, faster water purification, and consistent flow, making it an essential component for residential and commercial RO purifiers. With a 100 gallons per day (GPD) capacity, this powerful and energy-efficient pump optimizes RO membrane performance, ensuring pure, clean, and safe drinking water. This high-quality booster pump is engineered for durability and efficiency. It provides stable water pressure, allowing RO membranes to function effectively in low water pressure conditions. Whether for home use, offices, or small businesses, this booster pump ensures reliable and uninterrupted water purification."
+---
+id: 1115
+name: Aqua Ace Ro Adapter Smps/Power Supply For All Type Of Ro Water Filters And Purifiers With 1 Year Warranty AcDcConverters (24V 2.5A)
+price: 750
+mrp: 1299
+brand: Aqua Ace
+img: ["https://m.media-amazon.com/images/I/71uVtXBLa-L._SX466_.jpg"]
+details: ["1 Year Service kit Compatible with all type of RO+UV+TDS+UF And Mineral Water Purifier","DC Output Voltage : 24 V & SMPS not Noising And | Output current : DC 2.5 amp & Working Temperature: -15 c to 105 c.","Premium quality SMPS works with all types of RO water purifiers.","Included Components: SMPS 24 V; Purification Method: Ultraviolet reverse Osmosis","Easy To Place - Plug And Play; Work For All Kinds Of R.O, Color : Black; AC Input Range : 140 V to 300 V ac And | Frequency : 47 - 63 Hz.","Power your devices with our top-tier SMPS. Designed for efficiency and durability, it delivers stable voltage, prevents overloads, and enhances the lifespan of your electronics. Reliable performance, every time.","Caution: Ensure proper ventilation, avoid overloading, and always use correct voltage input. Keep away from moisture and heat sources. Regularly inspect for damage. Follow manufacturer's guidelines for safe use.","Experience unmatched efficiency with our high-quality SMPS. Engineered for reliability and performance, it ensures stable power supply, enhanced durability, and energy savings"]
+specs: {"Connectivity Technology":	"Ethernet","Connector Type":	"Proprietary","Compatible Devices":	"AC-DC Converters","Compatible Phone Models":	"Ro Machine","Mounting Type":	"Wall Mount","Total USB Ports":	1,"Power Source":	"Corded Electric","Current Rating": "	2.5 Amps","Main Power Connector Type": "2 pin"}
+description: "Black Power Adapter rests on sleek metal table. Rows of water treatment equipment, gleaming stainless steel pipes, and large-scale purifier system. Black Power Adapter on sleek countertop, near high-tech water purification system with blinking lights. Cool, blue-lit area with glowing pipes, shelves of filtration components."
+---
+id: 1116
+name: Cloud Inline Filter | High-Quality Water Purification
+price: 850
+mrp: 1399
+brand: Cloud
+img: ["https://rukminim2.flixcart.com/image/832/832/kehfi4w0/water-filter-cartridge/g/e/r/ro-cloud-inline-set-pre-carbon-filter-sediment-filter-supreme-original-imafv5y8sxbtwbah.jpeg?q=70&crop=false","https://cdn.zyrosite.com/cdn-cgi/image/format=auto,w=984,fit=scale-down/cdn-ecommerce/store_01JPZ4PNVZNGGT52J6BMH894JV%2Fassets%2F1745573343725-store_01JPZ4PNVZNGGT52J6BMH894JV%252Fassets%252F1745573330341-whatsapp%2520image%25202025-04-24%2520at%252013.32.09.jpeg"]
+details: [--]
+specs: {"Type":"Inline","Filter Material":"Plastic","Micron Rating":"0.5","Filtration Stages":2,"Net Quantity":6}
+description: "Cloud Inline : ** Sediment filter Using a step-by-step Filtering per Stome. This filter effectively eliminates various foreign bodies that come from this services water pipe such as bits of rust and also protect the RO membrane. ** Pre Carbon filter By absorbing / elimination any Remaining Chlorine and Otherorgani camical for the Water : c... All Brand RO Water Purifier Suitable 1/4 (6mm) pipeing (tubeing) system inside"
 ---
