@@ -167,6 +167,7 @@ app.post("/payment", (req, res) => {
   console.log(data);
 });
 
+//Products card 
 app.get("/products", (req, res) => {
   const productFile = path.join(__dirname, "products.txt");
   const templateFile = path.join(__dirname, "public", "products.html");
@@ -239,89 +240,80 @@ app.get("/products", (req, res) => {
 });
 
 //parts cards and pages
-
-app.get("/part/:id", (req, res) => {
-  const partId = req.params.id;
-  const partsFile = path.join(__dirname, "pro.txt");
+app.get("/products", (req, res) => {
+  const productFile = path.join(__dirname, "pro.txt");
   const templateFile = path.join(__dirname, "public", "parts.html");
 
-  fs.readFile(partsFile, "utf8", (err, rawData) => {
+  fs.readFile(productFile, "utf8", (err, rawData) => {
     if (err) return res.status(500).send("Error reading pro.txt");
 
-    const partBlocks = rawData
+    const productBlocks = rawData
       .split("---")
       .map((p) => p.trim())
       .filter(Boolean);
 
-    const match = partBlocks.find((block) => block.includes(`id: ${partId}`));
+    const cards = productBlocks
+      .map((block) => {
+        const lines = block.split("\n").map((l) => l.trim());
+        const data = {};
 
-    if (!match) return res.status(404).send("Part not found");
+        lines.forEach((line) => {
+          const [key, ...valueParts] = line.split(":");
+          const keyTrimmed = key.trim().toLowerCase();
+          const value = valueParts.join(":").trim();
+          data[keyTrimmed] = value;
+        });
 
-    const lines = match.split("\n").map((l) => l.trim());
-    const data = {};
+        // Required fields
+        const id = data.id || "";
+        const name = data.name || "Unnamed Product";
+        const price = data.price || "0";
+        const mrp = data.mrp || "";
+        let img = "";
+        let desc = "";
 
-    lines.forEach((line) => {
-      const [key, ...valueParts] = line.split(":");
-      const keyTrimmed = key.trim().toLowerCase();
-      const value = valueParts.join(":").trim();
-      data[keyTrimmed] = value;
-    });
+        try {
+          const imgs = JSON.parse(data.img || "[]");
+          img = imgs[0] || "";
+        } catch (e) {
+          img = "";
+        }
 
-    const name = data.name || "Unnamed Part";
-    const price = data.price || "0";
-    const mrp = data.mrp || "";
-    const brand = data.brand || "";
-    const description = data.description || "";
+        try {
+          const descArr = JSON.parse(data.description || "[]");
+          desc = descArr.join(", ");
+        } catch (e) {
+          desc = "";
+        }
 
-    let imgList = [];
-    try {
-      imgList = JSON.parse(data.img || "[]");
-    } catch (e) {}
+        if (!name || !price || !img) return ""; // Skip broken cards
 
-    let detailList = [];
-    try {
-      detailList = JSON.parse(data.details || "[]");
-    } catch (e) {}
+        return `
+      <div class="bg-[#0f2d4c] p-6 rounded-lg card text-center">
+        <h4 class="text-xl font-semibold mb-2">${name}</h4>
+        <img src="${img}" alt="${name}" class="w-full h-auto object-cover mb-4 rounded">
+        <p class="text-blue-300 text-sm mb-3">${desc.split(".")[0]}</p>
+        <p class="text-2xl font-bold text-white mb-2">₹${price} <span class="line-through text-blue-400 text-sm ml-2">₹${mrp}</span></p>
+        <a href="/product/${id}" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+      </div>
+      `;
+      })
+      .filter(Boolean)
+      .join("\n");
 
-    let specs = {};
-    try {
-      specs = JSON.parse(data.specs || "{}");
-    } catch (e) {}
-
-    // Inject into HTML
+    // Load HTML template and inject {{card}}
     fs.readFile(templateFile, "utf8", (err, html) => {
-      if (err) return res.status(500).send("Error loading parts.html");
+      if (err) return res.status(500).send("Error loading template");
 
-      const imagesHtml = imgList.map(img => `<img src="${img}" alt="${name}" class="w-full h-auto rounded mb-3">`).join("\n");
-      const detailsHtml = detailList.map(d => `<li class="mb-1">${d}</li>`).join("\n");
-      const specsHtml = Object.entries(specs).map(([key, val]) => `<tr><td class="px-4 py-2 font-semibold">${key}</td><td class="px-4 py-2">${val}</td></tr>`).join("\n");
-
-      const filled = html
-        .replace("{{name}}", name)
-        .replace("{{price}}", price)
-        .replace("{{mrp}}", mrp)
-        .replace("{{brand}}", brand)
-        .replace("{{images}}", imagesHtml)
-        .replace("{{description}}", description)
-        .replace("{{details}}", detailsHtml)
-        .replace("{{specs}}", specsHtml);
-
-      res.send(filled);
-    });
-  });
-});
-
-// Inject into HTML template
-    fs.readFile(templateFile, "utf8", (err, html) => {
-      if (err) return res.status(500).send("Error reading template.");
-      const finalHTML = html.replace("{{specs}}", cardHTML);
-      res.send(finalHTML);
+      const finalHtml = html.replace("{{parts}}", cards);
+      res.send(finalHtml);
     });
   });
 });
 
 
-//products cards and page
+
+//Product page
 app.get("/product/:id", (req, res) => {
   const productId = req.params.id;
   const productFile = path.join(__dirname, "products.txt");
