@@ -238,6 +238,81 @@ app.get("/products", (req, res) => {
   });
 });
 
+//parts cards and pages
+
+app.get("/part/:id", (req, res) => {
+  const partId = req.params.id;
+  const partsFile = path.join(__dirname, "pro.txt");
+  const templateFile = path.join(__dirname, "public", "part.html");
+
+  fs.readFile(partsFile, "utf8", (err, rawData) => {
+    if (err) return res.status(500).send("Error reading pro.txt");
+
+    const partBlocks = rawData
+      .split("---")
+      .map((p) => p.trim())
+      .filter(Boolean);
+
+    const match = partBlocks.find((block) => block.includes(`id: ${partId}`));
+
+    if (!match) return res.status(404).send("Part not found");
+
+    const lines = match.split("\n").map((l) => l.trim());
+    const data = {};
+
+    lines.forEach((line) => {
+      const [key, ...valueParts] = line.split(":");
+      const keyTrimmed = key.trim().toLowerCase();
+      const value = valueParts.join(":").trim();
+      data[keyTrimmed] = value;
+    });
+
+    const name = data.name || "Unnamed Part";
+    const price = data.price || "0";
+    const mrp = data.mrp || "";
+    const brand = data.brand || "";
+    const description = data.description || "";
+
+    let imgList = [];
+    try {
+      imgList = JSON.parse(data.img || "[]");
+    } catch (e) {}
+
+    let detailList = [];
+    try {
+      detailList = JSON.parse(data.details || "[]");
+    } catch (e) {}
+
+    let specs = {};
+    try {
+      specs = JSON.parse(data.specs || "{}");
+    } catch (e) {}
+
+    // Inject into HTML
+    fs.readFile(templateFile, "utf8", (err, html) => {
+      if (err) return res.status(500).send("Error loading part.html");
+
+      const imagesHtml = imgList.map(img => `<img src="${img}" alt="${name}" class="w-full h-auto rounded mb-3">`).join("\n");
+      const detailsHtml = detailList.map(d => `<li class="mb-1">${d}</li>`).join("\n");
+      const specsHtml = Object.entries(specs).map(([key, val]) => `<tr><td class="px-4 py-2 font-semibold">${key}</td><td class="px-4 py-2">${val}</td></tr>`).join("\n");
+
+      const filled = html
+        .replace("{{name}}", name)
+        .replace("{{price}}", price)
+        .replace("{{mrp}}", mrp)
+        .replace("{{brand}}", brand)
+        .replace("{{images}}", imagesHtml)
+        .replace("{{description}}", description)
+        .replace("{{details}}", detailsHtml)
+        .replace("{{specs}}", specsHtml);
+
+      res.send(filled);
+    });
+  });
+});
+
+
+//products cards and page
 app.get("/product/:id", (req, res) => {
   const productId = req.params.id;
   const productFile = path.join(__dirname, "products.txt");
