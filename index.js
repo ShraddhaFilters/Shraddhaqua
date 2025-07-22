@@ -243,7 +243,7 @@ app.get("/products", (req, res) => {
 app.get("/part/:id", (req, res) => {
   const partId = req.params.id;
   const partsFile = path.join(__dirname, "pro.txt");
-  const templateFile = path.join(__dirname, "public", "part.html");
+  const templateFile = path.join(__dirname, "public", "parts.html");
 
   fs.readFile(partsFile, "utf8", (err, rawData) => {
     if (err) return res.status(500).send("Error reading pro.txt");
@@ -290,7 +290,7 @@ app.get("/part/:id", (req, res) => {
 
     // Inject into HTML
     fs.readFile(templateFile, "utf8", (err, html) => {
-      if (err) return res.status(500).send("Error loading part.html");
+      if (err) return res.status(500).send("Error loading parts.html");
 
       const imagesHtml = imgList.map(img => `<img src="${img}" alt="${name}" class="w-full h-auto rounded mb-3">`).join("\n");
       const detailsHtml = detailList.map(d => `<li class="mb-1">${d}</li>`).join("\n");
@@ -307,6 +307,15 @@ app.get("/part/:id", (req, res) => {
         .replace("{{specs}}", specsHtml);
 
       res.send(filled);
+    });
+  });
+});
+
+// Inject into HTML template
+    fs.readFile(templateFile, "utf8", (err, html) => {
+      if (err) return res.status(500).send("Error reading template.");
+      const finalHTML = html.replace("{{specs}}", cardHTML);
+      res.send(finalHTML);
     });
   });
 });
