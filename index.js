@@ -239,20 +239,20 @@ app.get("/products", (req, res) => {
   });
 });
 
-//parts cards and pages
-app.get("/products", (req, res) => {
-  const productFile = path.join(__dirname, "pro.txt");
+//parts cards
+app.get("/parts", (req, res) => {
+  const partFile = path.join(__dirname, "pro.txt");
   const templateFile = path.join(__dirname, "public", "parts.html");
 
-  fs.readFile(productFile, "utf8", (err, rawData) => {
+  fs.readFile(partFile, "utf8", (err, rawData) => {
     if (err) return res.status(500).send("Error reading pro.txt");
 
-    const productBlocks = rawData
+    const partBlocks = rawData
       .split("---")
       .map((p) => p.trim())
       .filter(Boolean);
 
-    const cards = productBlocks
+    const cards = partBlocks
       .map((block) => {
         const lines = block.split("\n").map((l) => l.trim());
         const data = {};
@@ -266,7 +266,7 @@ app.get("/products", (req, res) => {
 
         // Required fields
         const id = data.id || "";
-        const name = data.name || "Unnamed Product";
+        const name = data.name || "Unnamed Part";
         const price = data.price || "0";
         const mrp = data.mrp || "";
         let img = "";
@@ -280,10 +280,10 @@ app.get("/products", (req, res) => {
         }
 
         try {
-          const descArr = JSON.parse(data.description || "[]");
-          desc = descArr.join(", ");
+          desc = JSON.parse(data.description || "[]");
+          desc = Array.isArray(desc) ? desc.join(", ") : desc;
         } catch (e) {
-          desc = "";
+          desc = data.description || "";
         }
 
         if (!name || !price || !img) return ""; // Skip broken cards
@@ -294,14 +294,13 @@ app.get("/products", (req, res) => {
         <img src="${img}" alt="${name}" class="w-full h-auto object-cover mb-4 rounded">
         <p class="text-blue-300 text-sm mb-3">${desc.split(".")[0]}</p>
         <p class="text-2xl font-bold text-white mb-2">₹${price} <span class="line-through text-blue-400 text-sm ml-2">₹${mrp}</span></p>
-        <a href="/product/${id}" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
+        <a href="/part/${id}" class="glow-btn px-4 py-2 text-sm rounded inline-block">Order Now</a>
       </div>
       `;
       })
       .filter(Boolean)
       .join("\n");
 
-    // Load HTML template and inject {{card}}
     fs.readFile(templateFile, "utf8", (err, html) => {
       if (err) return res.status(500).send("Error loading template");
 
@@ -310,6 +309,7 @@ app.get("/products", (req, res) => {
     });
   });
 });
+
 
 
 
