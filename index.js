@@ -242,7 +242,7 @@ app.get("/products", (req, res) => {
 //parts cards
 app.get("/parts", (req, res) => {
   const partFile = path.join(__dirname, "pro.txt");
-  const templateFile = path.join(__dirname, "public", "parts.html");
+  const templateFile = path.join(__dirname, "public", "products.html");
 
   fs.readFile(partFile, "utf8", (err, rawData) => {
     if (err) return res.status(500).send("Error reading pro.txt");
